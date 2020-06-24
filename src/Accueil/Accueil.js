@@ -10,27 +10,35 @@ class Accueil extends Component{
         super(props);
 
         this.state = {
-            show: false
+            show: false,
+            end: false
         };
     }
     
 
     render(){
-        if(this.state.show){
-            return(<Redirect to="/test"/>);
-        }
         return(
-        <div id="body_Accueil">
-            <div className="sub-body_Accueil">   
-                <div className="wrapper_Accueil" onClick={() => this.setState({show:true})}>
-                <svg className="svg_Accueil" width="170.35mm" height="37.286mm" version="1.1" viewBox="0 0 250.35 37.286">
-                    <g transform="translate(154.37 97.118)">
-                    <text x="-152.70239" y="-63.5" className="text_Theo"><tspan x="-152.70239" y="-63.5" className="tspan_Theo">Théo Julien</tspan></text>
-                    </g>
+          <div id="body_Test">
+            <div id="title_Accueil">
+              <div className="wrapper_Accueil">
+                <svg className={this.state.show?"svg_Accueil opacity0":"svg_Accueil"} width="170.35mm"
+                  height="37.286mm" version="1.1" viewBox="0 0 250.35 37.286">
+                  <g transform="translate(154.37 97.118)">
+                    <text x="-152.70239" y="-63.5" className="text_Theo">
+                      <tspan x="-152.70239" y="-63.5" className="tspan_Theo">Théo Julien</tspan>
+                    </text>
+                  </g>
                 </svg>
-                </div>
+              </div>
             </div>
-        </div>
+            <div id="triangle-down" className={this.state.show?"usenand":""}></div>
+            <div id="triangle-up" className={this.state.show?"usenand":""}></div>
+            <button id="button" onClick={()=> {this.setState({show:true});setInterval(() =>
+              this.setState({end:true}),2200)}}>yo</button>
+            <div style={{height:"100vh",backgroundColor:"royalblue"}}>
+
+            </div>
+          </div>
         );
     }
 }
