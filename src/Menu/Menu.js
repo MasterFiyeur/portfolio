@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './Menu.css'
-import { Redirect } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 /**
- * Class qui s'occupe de la page d'accueil
+ * Class qui s'occupe du menu
  */
 class Menu extends Component{
     constructor(props) {
@@ -15,12 +15,14 @@ class Menu extends Component{
     }
 
     render(){
-          /*if(this.state.end){
-            return(<Redirect to='/'/>);
-          }*/
         return(
-            <div className="" style={{backgroundColor:"rgb(14,12,23)",color:"#fff",height:"100vh",fontSize:"500px"}}>
-                Yo
+            <div className="body_Menu">
+                <ul className="ul_Menu">
+                    <NavLink to="/"><li datatype="Accueil" className="li_Menu"><div className="a_Menu">Accueil</div></li></NavLink>
+                    <NavLink to="/"><li datatype="A propos" className="li_Menu"><div className="a_Menu">A propos</div></li></NavLink>
+                    <NavLink to="/"><li datatype="Projets" className="li_Menu"><div className="a_Menu">Projets</div></li></NavLink>
+                    <NavLink to="/"><li datatype="Contact" className="li_Menu"><div className="a_Menu">Contact</div></li></NavLink>
+                </ul>
             </div>
         );
     }

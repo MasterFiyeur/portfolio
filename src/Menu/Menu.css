@@ -1,6 +1,102 @@
-.container_Menu{
-    background-color: rgb(14,12,23);
+.body_Menu{
+    background: rgb(14,12,23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ul_Menu{
+    height: 25vh;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.li_Menu{
+    margin-top: 3px;
+}
+
+.ul_Menu .li_Menu{
+    list-style: none;
+}
+
+.ul_Menu .li_Menu::before{
+    content: attr(datatype);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     color:#fff;
-    height:100vh;
-    font-size:500px;
+    font-size: 6em;
+    font-weight: 700;
+    pointer-events: none;
+    opacity: 0;
+    letter-spacing: 20px;
+    transition: 0.5s;
+    white-space: nowrap;
+}
+
+.ul_Menu .li_Menu:hover::before{
+    opacity: 0.50;
+    letter-spacing: 20px;
+}
+
+.ul_Menu .li_Menu .a_Menu{
+    position: relative;
+    display: inline-block;
+    padding: 6px 15px;
+    font-size: x-large;
+    text-decoration: none;
+    background: #14619E;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 1;
+} 
+
+.ul_Menu:hover .li_Menu .a_Menu{
+    opacity: 0;
+}
+
+.ul_Menu .li_Menu .a_Menu:hover{
+    transform: scale(1.4);
+    z-index: 1000;
+    background: rgb(230, 171, 198);
+    opacity: 1;
+}
+
+.ul_Menu .li_Menu .a_Menu::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100px;
+    width: 80px;
+    height: 100%;
+    background: linear-gradient(90deg,transparent, rgb(255,255,255), transparent);
+    transform: skewX(35deg);
+    transition: 0s;
+}
+
+.ul_Menu .li_Menu .a_Menu:hover::before{
+    transition: 0.5s;
+    transition-delay: 0.2s;
+    animation: zoumzoum 2s infinite;
+}
+
+@keyframes zoumzoum {
+	10% {
+        left: calc(0% - 100px);
+	}
+	30% {
+        left: calc(100% + 100px);
+    }
+    100%{
+        left: calc(100% + 100px);
+    }
 }

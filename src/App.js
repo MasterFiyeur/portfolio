@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 import Accueil from './Accueil/Accueil';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Test from './Test/Test';
 import Menu from './Menu/Menu';
 
 function App() {
   return (
     <div className="App">
-      <Router basename={"/portfolio"}>
+      <Router>
           <Switch>
             <Route path="/" exact component={Accueil} />
             <Route path="/test" component={Test} />
