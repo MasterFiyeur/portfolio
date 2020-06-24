@@ -1,0 +1,71 @@
+#body_Accueil{
+    margin:0;
+	padding:0;
+	width:100%;
+    height: 100vh;
+}
+
+.sub-body_Accueil {
+	margin:0;
+	padding:0;
+	width:100%;
+	text-align:center;
+	background: url(./IMG_3382.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	height: 100vh;
+	display: table;
+}
+
+.text_Theo{
+    font-family:'Times New Roman';
+    font-size:176.39px;
+    line-height:1.25;
+    stroke-width:.35278;
+}
+
+.tspan_Theo{
+    fill:#fff;
+    font-size:44.097px;
+    stroke-width:.35278;
+    stroke:#ffffff;
+    stroke-dasharray: 250;
+    opacity:10;
+    animation: animationTheo 2.5s cubic-bezier(0,0.23,1,.1);
+}
+
+@keyframes animationTheo {
+	0% {
+		opacity:0;
+		fill: none;
+		stroke-dashoffset: 250;
+	}
+	
+	30% {
+		opacity:10;
+		fill: none;
+		stroke-dashoffset: 250;
+	}
+	
+	90%{
+		fill: rgba(255,255,255,0);
+	}
+	
+	100% {
+		opacity:10;
+		fill: rgba(255,255,255,1);
+		stroke-dashoffset:0;
+	}
+}
+
+.wrapper_Accueil {
+	position:absolute;
+	top: 45%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+.svg_Accueil {
+    height: auto;
+	max-width: 100%;
+	transition: opacity 1.5s;
+  }
