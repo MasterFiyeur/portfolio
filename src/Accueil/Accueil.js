@@ -21,9 +21,9 @@ class Accueil extends Component{
     }
 
     render(){
-          /*if(this.state.end){
-            return(<Redirect to='/'/>);
-          }*/
+          if(this.state.end){
+            return(<Redirect to='/menu'/>);
+          }
         return(
           <div id="body_Test">
             {/* SVG avec mon prénom */}
@@ -54,7 +54,7 @@ class Accueil extends Component{
                   <path fillRule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
                 </svg>
             </div>
-            <div style={{height:"100vh",backgroundColor:"royalblue"}}></div>
+            <div style={{height:"100vh",backgroundColor:"rgb(14,12,23)"}}></div>
           </div>
         );
     }

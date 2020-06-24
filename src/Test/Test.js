@@ -5,7 +5,7 @@ import { Redirect } from 'react-router-dom';
 /**
  * Class qui s'occupe de la page de connexion
  */
-class Accueil extends Component{
+class Test extends Component{
     constructor(props) {
         super(props);
 
@@ -47,4 +47,4 @@ class Accueil extends Component{
     }
 }
 
-export default Accueil;
+export default Test;
