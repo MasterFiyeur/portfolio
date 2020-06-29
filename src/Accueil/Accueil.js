@@ -17,7 +17,7 @@ class Accueil extends Component{
     }
     
     componentDidMount(){
-      setInterval(() => this.setState({twoPointFiveSecond:true}),2000)
+      setTimeout(() => this.setState({twoPointFiveSecond:true}),2000);
     }
 
     render(){

@@ -60,10 +60,6 @@
     z-index: 1;
 } 
 
-.ul_Menu:hover .li_Menu .a_Menu{
-    opacity: 0;
-}
-
 .ul_Menu .li_Menu .a_Menu:hover{
     transform: scale(1.4);
     z-index: 1000;
