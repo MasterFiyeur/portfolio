@@ -23,7 +23,7 @@ class Projets extends Component{
     render(){
         return(
             <div className="body_Projets">
-                <h1>Projets</h1>
+                <h1 className="title_Projets">Projets</h1>
                 <div className="all_Projet_Projets">
                     <div className="liste_Projet_Projets">
                         <img className="img_large" src={img_site_personnel} alt="Site personnel"/>
