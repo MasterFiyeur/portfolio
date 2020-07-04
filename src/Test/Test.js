@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-//import './Test.css'
-import { Redirect } from 'react-router-dom';
+import './Test.css';
 
 /**
  * Class qui s'occupe de la page de connexion
