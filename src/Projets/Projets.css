@@ -2,7 +2,7 @@
     font-family: 'Times New Roman', Times, serif;
     margin:0;
 	padding:30px 0;
-    background-color: rgb(165, 172, 231);
+    background-color: rgb(14,12,23);
 }
 
 .title_Projets{
@@ -69,7 +69,35 @@
     width: 100%;
 }
 
-.description_Projets{
+.description_nolarge_Projets{
+    background-color: rgb(165, 172, 231);
+    color: #fff;
+}
+
+.description_nolarge_Projets .row hr{
+    border: none;
+    border-top: 3px double rgb(230, 171, 198);
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+.description_centered_Projets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn_voir_Projets{
+    margin: 10px;
+    width: 80%;
+    border: 2px solid rgb(165, 172, 231);
+    border-radius: 10px;
+    background: radial-gradient(rgb(230, 171, 198), rgb(165, 172, 231) 80%);
+}
+
+.description_large_Projets{
     color: #fff;
     position: absolute;
     top: 50%;
@@ -78,10 +106,14 @@
     width: 100%;
     padding: 10px;
     z-index: 2;
+    text-shadow: -1px -1px 5px rgb(230, 171, 198);
 }
-.description_Projets div{
+.description_large_Projets div{
     margin-top: 20px;
-    font-size: large;
+}
+
+.description_text_Projets{
+    font-size: 25px;
 }
 
 .info_info-button_Projets{
@@ -90,15 +122,20 @@
     flex-direction: row;
 }
 
-.description_Projets h1 span{
+.description_large_Projets h1 span{
     padding: 5px;
     border: 5px solid #fff;
+}
+
+.langages_lg_Projets{
+    font-size: 25px;
 }
 
 .voir_Projets{
     cursor: pointer;
     color: rgb(195, 199, 237);
     border: 3px solid rgb(195, 199, 237);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 10px;
     width: 30%;
