@@ -29,7 +29,7 @@ class Projets extends Component{
                         <img className="img_large" src={img_site_personnel} alt="Site personnel"/>
                         <div className="description_large_Projets d-none d-lg-block">
                             <h1><span className="project_title">Portfolio</span> - Juillet 2020</h1>
-                            <div className="description_text_Projets">Il s'agit de ce site web afin de me présenter de même que mes projets.</div>
+                            <div className="description_text_Projets">Site web dans le but de me présenter avec mes projets.</div>
                             <div className="info_info-button_Projets"><div className="langages_lg_Projets">Langages : HTML / CSS / JS (React)</div>
                             <div className="voir_Projets">Détails</div></div>
                         </div>
@@ -42,8 +42,8 @@ class Projets extends Component{
                                 <hr className="d-md-none d-sm-none"></hr>
                                 </div>
                                 <div className="col-12 col-sm-8 description_centered_Projets">
-                                    <div>Il s'agit de ce site web afin de me présenter de même que mes projets.</div>
-                                    <div className="btn_voir_Projets">Details</div>
+                                    <div>Site web dans le but de me présenter avec mes projets.</div>
+                                    <div className="btn_voir_Projets">Détails</div>
                                 </div>
                             </div>
                         </div>
@@ -52,9 +52,23 @@ class Projets extends Component{
                         <img className="img_large" src={img_myeisti} alt="MyEISTI"/>
                         <div className="description_large_Projets d-none d-lg-block">
                             <h1><span className="project_title">MyEISTI</span> - Juin 2020</h1>
-                            <div className="description_text_Projets">Une application dont le but premier est de faciliter l'appel des professeurs en début de cours mais qui contient d'autres fonctionnalités.</div>
+                            <div className="description_text_Projets">Une application dont le but premier est de faciliter l'appel des professeurs en début de cours mais qui contient aussi d'autres fonctionnalités.</div>
                             <div className="info_info-button_Projets"><div className="langages_lg_Projets">Langages : Java / PHP / SQL</div>
                             <div className="voir_Projets">Détails</div></div>
+                        </div>
+                        <div className="description_nolarge_Projets d-lg-none d-block">
+                            <div className="row">
+                                <div className="col-12 col-sm-4">
+                                    <h1>MyEISTI</h1>
+                                    <h4>Juin 2020</h4>
+                                    <div>Langages : Java / PHP / SQL</div>
+                                <hr className="d-md-none d-sm-none"></hr>
+                                </div>
+                                <div className="col-12 col-sm-8 description_centered_Projets">
+                                    <div>Une application dont le but premier est de faciliter l'appel des professeurs en début de cours mais qui contient aussi d'autres fonctionnalités.</div>
+                                    <div className="btn_voir_Projets">Détails</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="liste_Projet_Projets">
@@ -65,6 +79,20 @@ class Projets extends Component{
                             <div className="info_info-button_Projets"><div className="langages_lg_Projets">Langages : HTML / CSS / JS (React) / PHP / SQL</div>
                             <div className="voir_Projets">Détails</div></div>
                         </div>
+                        <div className="description_nolarge_Projets d-lg-none d-block">
+                            <div className="row">
+                                <div className="col-12 col-sm-4">
+                                    <h1>Site de rencontre</h1>
+                                    <h4>Juin 2020</h4>
+                                    <div>Langages : HTML / CSS / JS (React) / PHP / SQL</div>
+                                <hr className="d-md-none d-sm-none"></hr>
+                                </div>
+                                <div className="col-12 col-sm-8 description_centered_Projets">
+                                    <div>Un site internet qui propose aux utilisateurs de "like" ou "dislike" des profils et d'établir une communication entre deux utilisateurs s'ils se sont "like" mutuellement.</div>
+                                    <div className="btn_voir_Projets">Détails</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className="liste_Projet_Projets">
                         <img className="img_large" src={img_bataille_naval} alt="Bataille navale"/>
@@ -73,6 +101,20 @@ class Projets extends Component{
                             <div className="description_text_Projets">Une bataille navale dont on peut changer quelques règles.</div>
                             <div className="info_info-button_Projets"><div className="langages_lg_Projets">Langage : C</div>
                             <div className="voir_Projets">Détails</div></div>
+                        </div>
+                        <div className="description_nolarge_Projets d-lg-none d-block">
+                            <div className="row">
+                                <div className="col-12 col-sm-4">
+                                    <h1>Bataille navale</h1>
+                                    <h4>Janvier 2020</h4>
+                                    <div>Langage : C</div>
+                                <hr className="d-md-none d-sm-none"></hr>
+                                </div>
+                                <div className="col-12 col-sm-8 description_centered_Projets">
+                                    <div>Une bataille navale dont on peut changer quelques règles.</div>
+                                    <div className="btn_voir_Projets">Détails</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="liste_Projet_Projets">
@@ -83,6 +125,20 @@ class Projets extends Component{
                             <div className="info_info-button_Projets"><div className="langages_lg_Projets">Langage : Pascal</div>
                             <div className="voir_Projets">Détails</div></div>
                         </div>
+                        <div className="description_nolarge_Projets d-lg-none d-block">
+                            <div className="row">
+                                <div className="col-12 col-sm-4">
+                                    <h1>Ascenseur</h1>
+                                    <h4>Juin 2019</h4>
+                                    <div>Langage : Pascal</div>
+                                <hr className="d-md-none d-sm-none"></hr>
+                                </div>
+                                <div className="col-12 col-sm-8 description_centered_Projets">
+                                    <div>Un jeu de carte, c'est un jeu de levées avec atout.</div>
+                                    <div className="btn_voir_Projets">Détails</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className="liste_Projet_Projets">
                         <img className="img_large" src={img_machine_mot} alt="Machine à inventer des mots"/>
@@ -92,6 +148,20 @@ class Projets extends Component{
                             <div className="info_info-button_Projets"><div className="langages_lg_Projets">Langage : Pascal</div>
                             <div className="voir_Projets">Détails</div></div>
                         </div>
+                        <div className="description_nolarge_Projets d-lg-none d-block">
+                            <div className="row">
+                                <div className="col-12 col-sm-4">
+                                    <h1>Machine à inventer des mots</h1>
+                                    <h4>Janvier 2019</h4>
+                                    <div>Langage : Pascal</div>
+                                <hr className="d-md-none d-sm-none"></hr>
+                                </div>
+                                <div className="col-12 col-sm-8 description_centered_Projets">
+                                    <div>Invention de mots selon les probabilités des suites de lettres d'un dictionnaire.</div>
+                                    <div className="btn_voir_Projets">Détails</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className="liste_Projet_Projets">
                         <img className="img_large" src={img_monopoly} alt="Monopoly"/>
@@ -100,6 +170,20 @@ class Projets extends Component{
                             <div className="description_text_Projets">Un monopoly dans lequel nous pouvons acheter les salles de classe de mon lycée.</div>
                             <div className="info_info-button_Projets"><div className="langages_lg_Projets">Langages : HTML / CSS / JS</div>
                             <div className="voir_Projets">Détails</div></div>
+                        </div>
+                        <div className="description_nolarge_Projets d-lg-none d-block">
+                            <div className="row">
+                                <div className="col-12 col-sm-4">
+                                    <h1>Monopoly</h1>
+                                    <h4>Juin 2018</h4>
+                                    <div>Langages : HTML / CSS / JS</div>
+                                <hr className="d-md-none d-sm-none"></hr>
+                                </div>
+                                <div className="col-12 col-sm-8 description_centered_Projets">
+                                    <div>Un monopoly dans lequel nous pouvons acheter les salles de classe de mon lycée.</div>
+                                    <div className="btn_voir_Projets">Détails</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
