@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './APropos.css';
 import vid_banner from './programme_france_courbevoie.mp4';
+import BackArrow from '../BackArrow/BackArrow';
 
 /**
  * Class qui s'occupe de la page de connexion
@@ -19,6 +20,7 @@ class APropos extends Component{
     render(){
         return(
         <div className="body_APropos"> {/* vidéo de moi en patin en fond ? */}
+            <BackArrow />
             <div className="banner_APropos">
                 <video autoPlay muted loop>
                     <source src={vid_banner} type="video/mp4" id="video_banner"></source>

@@ -1,0 +1,11 @@
+#backArrow{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    z-index: 5;
+    transition: .5s;
+}
+
+#backArrow:hover{
+    transform: scale(1.5);
+}

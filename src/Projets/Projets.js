@@ -7,6 +7,7 @@ import img_bataille_naval from './bataille_navale-min.jpg';
 import img_machine_mot from './machine_mots-min.jpg';
 import img_myeisti from './myeisti-min.jpg';
 import img_site_rencontre from './site_rencontre-min.jpg';
+import BackArrow from '../BackArrow/BackArrow';
 
 /**
  * Class qui s'occupe du menu
@@ -23,6 +24,7 @@ class Projets extends Component{
     render(){
         return(
             <div className="body_Projets">
+                <BackArrow />
                 <h1 className="title_Projets">Projets</h1>
                 <div className="all_Projet_Projets">
                     <div className="liste_Projet_Projets">
