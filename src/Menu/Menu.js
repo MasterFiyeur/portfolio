@@ -29,7 +29,7 @@ class Menu extends Component{
                             </div>
                         </li>
                     </NavLink>
-                    <NavLink to="/">
+                    <NavLink to="/a-propos">
                         <li datatype="A propos" className="li_Menu">
                             <div className={"a_Menu "+(this.state.hideMenu===2?"opacity1":(this.state.hideMenu!==0&&"opacity0"))}
                             onMouseOver={() => this.setState({hideMenu:2})}
