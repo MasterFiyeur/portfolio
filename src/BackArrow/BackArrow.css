@@ -4,6 +4,7 @@
     left: 3%;
     z-index: 5;
     transition: .5s;
+    cursor: pointer;
 }
 
 #backArrow:hover{
