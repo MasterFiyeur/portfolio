@@ -20,7 +20,7 @@ render(){
       <Router>
           <Switch>
             <Route path="/" exact><Accueil /></Route>
-            {/*<Route path="/a-propos"><APropos /></Route>*/}
+            <Route path="/a-propos"><APropos /></Route>
             <Route path="/test"><Test /></Route>
             <Route path="/menu"><Menu/></Route>
             <Route path="/projets"><Projets /></Route>

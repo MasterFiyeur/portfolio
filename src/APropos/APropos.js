@@ -29,7 +29,7 @@ class APropos extends Component{
             </div>
             <div className="content_APropos">
                 <h1>Premières idées</h1>
-                <h1>Mon parcours</h1>
+                {/*<h1>Mon parcours</h1>
                 <h1>L'informatique pour moi</h1>
                 <h1>Le patinage, ma passion</h1>
                 <h1>Ce que j'aime</h1>
@@ -37,7 +37,7 @@ class APropos extends Component{
             Je veux changer le monde, je veux le rendre meilleur you know ?<br/>
             Peut etre faire plusieurs rubriques genre mon parcours, ma personnalité, ce que j'aime, l'info il faut laisser une grosse place à l'info<br/>
             Premier langage que j'ai touché est le VB.NET pour faire un programme enervant pour le prof (cd)<br/>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula tempus lorem, et convallis purus cursus non. Vestibulum lobortis condimentum nunc, sit amet commodo enim laoreet vel. Cras sit amet dignissim urna. Aliquam sodales, lacus quis aliquet gravida, purus turpis feugiat nunc, vitae tincidunt magna risus quis massa. Proin accumsan cursus tortor nec hendrerit. Mauris eget molestie massa. Suspendisse sagittis lacus et quam tempor egestas. Aliquam eget orci id erat posuere gravida. In scelerisque ante at mauris vehicula pretium. Maecenas ante justo, imperdiet iaculis urna ac, vulputate ultrices massa. Aliquam nulla sapien, dapibus at neque dictum, volutpat interdum purus. In vehicula facilisis erat. Nulla pulvinar eros et leo bibendum, ac semper metus convallis. Nam quis euismod elit, id mollis mauris. Cras ut iaculis ipsum.
+                */}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula tempus lorem, et convallis purus cursus non. Vestibulum lobortis condimentum nunc, sit amet commodo enim laoreet vel. Cras sit amet dignissim urna. Aliquam sodales, lacus quis aliquet gravida, purus turpis feugiat nunc, vitae tincidunt magna risus quis massa. Proin accumsan cursus tortor nec hendrerit. Mauris eget molestie massa. Suspendisse sagittis lacus et quam tempor egestas. Aliquam eget orci id erat posuere gravida. In scelerisque ante at mauris vehicula pretium. Maecenas ante justo, imperdiet iaculis urna ac, vulputate ultrices massa. Aliquam nulla sapien, dapibus at neque dictum, volutpat interdum purus. In vehicula facilisis erat. Nulla pulvinar eros et leo bibendum, ac semper metus convallis. Nam quis euismod elit, id mollis mauris. Cras ut iaculis ipsum.
 
 Quisque justo libero, ultricies vel magna congue, varius suscipit est. Suspendisse sed est ac libero hendrerit ullamcorper ut ut ipsum. Maecenas id tempor felis, at viverra justo. Sed laoreet fringilla posuere. Donec eget nisi tempus nulla pellentesque vulputate. Morbi vestibulum elit id imperdiet venenatis. Nulla facilisi. Duis mollis elit eget justo auctor auctor. Ut sed tellus ut risus tristique interdum eget sit amet odio.
 
