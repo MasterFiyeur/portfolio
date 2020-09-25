@@ -30,6 +30,7 @@ class Projets extends Component{
                     <div className="liste_Projet_Projets">
                         <img className="img_large" src={img_site_personnel} alt="Site personnel"/>
                         <div className="description_large_Projets d-none d-lg-block">
+                            {/* ici pour mettre au milieu y a display block faut mettre flex */}
                             <h1><span className="project_title">Portfolio</span> - Juillet 2020</h1>
                             <div className="description_text_Projets">Site web dans le but de me présenter avec mes projets.</div>
                             <div className="info_info-button_Projets"><div className="langages_lg_Projets">Langages : HTML / CSS / JS (React)</div>

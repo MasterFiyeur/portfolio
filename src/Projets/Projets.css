@@ -104,9 +104,14 @@
     left: 50%;
     transform: translate(-50%,-50%);
     width: 100%;
+    /*top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;*/
     padding: 10px;
     z-index: 2;
     text-shadow: -1px -1px 5px rgb(230, 171, 198);
+    /*background-color:rgba(230, 171, 198,0.9);*/
 }
 .description_large_Projets div{
     margin-top: 20px;
