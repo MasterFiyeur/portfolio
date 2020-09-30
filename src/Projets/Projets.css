@@ -183,12 +183,8 @@
 }
 
 @media screen and (min-width: 991px){
-    .liste_Projet_Projets .img_large:hover ~ .description_large_Projets{
-        background-color:rgba(230, 171, 198,0.9);
-        transform: translateY(0%);
-    }
-    .description_large_Projets:hover{
-        background-color:rgba(230, 171, 198,0.9);
+    .description_large_Projets:hover, .liste_Projet_Projets .img_large:hover ~ .description_large_Projets{
+        background-color:rgba(195, 199, 237,0.9);
         transform: translateY(0%);
     }
 }
