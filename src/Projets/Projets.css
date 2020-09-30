@@ -124,8 +124,9 @@
 }
 
 .info_info-button_Projets{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
 }
 
@@ -151,7 +152,12 @@
 
 .voir_Projets:hover{
     color: #fff;
-    background-color: rgb(195, 199, 237);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.voir_Projets:active{
+    color: #fff;
+    background-color: rgb(215, 219, 255);
 }
 
 @media screen and (max-width: 991px){
