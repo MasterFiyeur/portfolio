@@ -18,9 +18,14 @@ class Projets extends Component{
 
         this.state = {
             show: false
-        };
+        };  
     }
-
+    
+    openURL (url){
+        let open = window.open(url,'_blank');
+        open.focus();
+    }
+    
     render(){
         return(
             <div className="body_Projets">
@@ -34,7 +39,7 @@ class Projets extends Component{
                             <h1><span className="project_title">Portfolio</span> - Juillet 2020</h1>
                             <div className="description_text_Projets">Site web dans le but de me présenter avec mes projets.</div>
                             <div className="info_info-button_Projets"><div className="langages_lg_Projets">Langages : HTML / CSS / JS (React)</div>
-                            <div className="voir_Projets">Détails</div></div>
+                            <div className="voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/portfolio")}>GitHub</div></div>
                         </div>
                         <div className="description_nolarge_Projets d-lg-none d-block">
                             <div className="row">
@@ -46,7 +51,7 @@ class Projets extends Component{
                                 </div>
                                 <div className="col-12 col-sm-8 description_centered_Projets">
                                     <div>Site web dans le but de me présenter avec mes projets.</div>
-                                    <div className="btn_voir_Projets">Détails</div>
+                                    <div className="btn_voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/portfolio")}>GitHub</div>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +62,7 @@ class Projets extends Component{
                             <h1><span className="project_title">MyEISTI</span> - Juin 2020</h1>
                             <div className="description_text_Projets">Une application dont le but premier est de faciliter l'appel des professeurs en début de cours mais qui contient aussi d'autres fonctionnalités.</div>
                             <div className="info_info-button_Projets"><div className="langages_lg_Projets">Langages : Java / PHP / SQL</div>
-                            <div className="voir_Projets">Détails</div></div>
+                            <div className="voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/MyEistiApp")}>GitHub</div></div>
                         </div>
                         <div className="description_nolarge_Projets d-lg-none d-block">
                             <div className="row">
@@ -69,7 +74,7 @@ class Projets extends Component{
                                 </div>
                                 <div className="col-12 col-sm-8 description_centered_Projets">
                                     <div>Une application dont le but premier est de faciliter l'appel des professeurs en début de cours mais qui contient aussi d'autres fonctionnalités.</div>
-                                    <div className="btn_voir_Projets">Détails</div>
+                                    <div className="btn_voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/MyEistiApp")}>GitHub</div>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +85,7 @@ class Projets extends Component{
                             <h1><span className="project_title">Site de rencontre</span> - Juin 2020</h1>
                             <div className="description_text_Projets">Un site internet qui propose aux utilisateurs de "like" ou "dislike" des profils et d'établir une communication entre deux utilisateurs s'ils se sont "like" mutuellement.</div>
                             <div className="info_info-button_Projets"><div className="langages_lg_Projets">Langages : HTML / CSS / JS (React) / PHP / SQL</div>
-                            <div className="voir_Projets">Détails</div></div>
+                            <div className="voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/meeting-app-for-students")}>GitHub</div></div>
                         </div>
                         <div className="description_nolarge_Projets d-lg-none d-block">
                             <div className="row">
@@ -92,7 +97,7 @@ class Projets extends Component{
                                 </div>
                                 <div className="col-12 col-sm-8 description_centered_Projets">
                                     <div>Un site internet qui propose aux utilisateurs de "like" ou "dislike" des profils et d'établir une communication entre deux utilisateurs s'ils se sont "like" mutuellement.</div>
-                                    <div className="btn_voir_Projets">Détails</div>
+                                    <div className="btn_voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/meeting-app-for-students")}>GitHub</div>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +108,7 @@ class Projets extends Component{
                             <h1><span className="project_title">Bataille navale</span> - Janvier 2020</h1>
                             <div className="description_text_Projets">Une bataille navale dont on peut changer quelques règles.</div>
                             <div className="info_info-button_Projets"><div className="langages_lg_Projets">Langage : C</div>
-                            <div className="voir_Projets">Détails</div></div>
+                            <div className="voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/battleships")}>GitHub</div></div>
                         </div>
                         <div className="description_nolarge_Projets d-lg-none d-block">
                             <div className="row">
@@ -115,7 +120,7 @@ class Projets extends Component{
                                 </div>
                                 <div className="col-12 col-sm-8 description_centered_Projets">
                                     <div>Une bataille navale dont on peut changer quelques règles.</div>
-                                    <div className="btn_voir_Projets">Détails</div>
+                                    <div className="btn_voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/battleships")}>GitHub</div>
                                 </div>
                             </div>
                         </div>
@@ -126,7 +131,7 @@ class Projets extends Component{
                             <h1><span className="project_title">Ascenseur</span> - Juin 2019</h1>
                             <div className="description_text_Projets">Un jeu de carte, c'est un jeu de levées avec atout.</div>
                             <div className="info_info-button_Projets"><div className="langages_lg_Projets">Langage : Pascal</div>
-                            <div className="voir_Projets">Détails</div></div>
+                            <div className="voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/ascenseur")}>GitHub</div></div>
                         </div>
                         <div className="description_nolarge_Projets d-lg-none d-block">
                             <div className="row">
@@ -138,7 +143,7 @@ class Projets extends Component{
                                 </div>
                                 <div className="col-12 col-sm-8 description_centered_Projets">
                                     <div>Un jeu de carte, c'est un jeu de levées avec atout.</div>
-                                    <div className="btn_voir_Projets">Détails</div>
+                                    <div className="btn_voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/ascenseur")}>GitHub</div>
                                 </div>
                             </div>
                         </div>
@@ -149,7 +154,7 @@ class Projets extends Component{
                             <h1><span className="project_title">Machine à inventer des mots</span> - Janvier 2019</h1>
                             <div className="description_text_Projets">Invention de mots selon les probabilités des suites de lettres d'un dictionnaire.</div>
                             <div className="info_info-button_Projets"><div className="langages_lg_Projets">Langage : Pascal</div>
-                            <div className="voir_Projets">Détails</div></div>
+                            <div className="voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/inventing-machine")}>GitHub</div></div>
                         </div>
                         <div className="description_nolarge_Projets d-lg-none d-block">
                             <div className="row">
@@ -161,7 +166,7 @@ class Projets extends Component{
                                 </div>
                                 <div className="col-12 col-sm-8 description_centered_Projets">
                                     <div>Invention de mots selon les probabilités des suites de lettres d'un dictionnaire.</div>
-                                    <div className="btn_voir_Projets">Détails</div>
+                                    <div className="btn_voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/inventing-machine")}>GitHub</div>
                                 </div>
                             </div>
                         </div>
@@ -172,7 +177,7 @@ class Projets extends Component{
                             <h1><span className="project_title">Monopoly</span> - Juin 2018</h1>
                             <div className="description_text_Projets">Un monopoly dans lequel nous pouvons acheter les salles de classe de mon lycée.</div>
                             <div className="info_info-button_Projets"><div className="langages_lg_Projets">Langages : HTML / CSS / JS</div>
-                            <div className="voir_Projets">Détails</div></div>
+                            <div className="voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/monopoly")}>GitHub</div></div>
                         </div>
                         <div className="description_nolarge_Projets d-lg-none d-block">
                             <div className="row">
@@ -184,7 +189,7 @@ class Projets extends Component{
                                 </div>
                                 <div className="col-12 col-sm-8 description_centered_Projets">
                                     <div>Un monopoly dans lequel nous pouvons acheter les salles de classe de mon lycée.</div>
-                                    <div className="btn_voir_Projets">Détails</div>
+                                    <div className="btn_voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/monopoly")}>GitHub</div>
                                 </div>
                             </div>
                         </div>
