@@ -1,5 +1,4 @@
 .body_Contact{
-    padding: 30px 0 0 15px;
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(14,12,23);
@@ -170,6 +169,7 @@
 @media screen and (max-width: 767px){
     .Contact_icons{
         flex-direction: column;
+        padding: 120px 30px 20px 30px;
     }
     .title_Contact{
         font-size: 50px;

@@ -40,7 +40,7 @@ class APropos extends Component{
                     collège m'a permis dans un premier tant de finir tous les jours vers 13h pour aller à mes entrainements puis m'a
                     énormement appris sur le plan personnel, c'est-à-dire que j'ai développé une responsabilité et une autonomie assez
                     tôt m'aidant pour mes projets futurs. A la fin de mes études au collège j'avais déjà été deux fois champion de France, 
-                    g
+                    
 
                 </div>
                 <h1>L'informatique pour moi</h1>
