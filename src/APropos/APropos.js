@@ -29,7 +29,20 @@ class APropos extends Component{
             </div>
             <div className="content_APropos">
                 <h1>Mon parcours</h1>
-                <div className="APropos_text"></div>
+                <div className="APropos_text">
+                    Tout a commencé à Orléans où j'ai grandi jusqu'à mes 10 ans. Mon école primaire était l'école Saint Marceau, à cette
+                    époque j'avais déjà commencé le patinage artistique et j'arrivais un peu plus tard que tout le monde à l'école car
+                    mes entraînements étaient le matin. Durant les compétitions de patinage ces années là, je me suis fait reperer par
+                    un entraîneur de Cergy très reconnu ainsi j'ai déménagé à Cergy. J'ai continué ma scolarité pendant 2 ans dans un 
+                    collège non-loin de mon hébergement (collège La Justice) cependant les entraînements de patinage étaient l'après midi ce qui m'a conduit
+                    à aller dans un collège à Paris pour y faire sport-étude. Mon nouveau collège était Saint Honoré d'Elyau dans le
+                    16ème arrondissement de Paris m'obligeant à faire le trajet Cergy-Paris en transport en commun tout les matins. Ce
+                    collège m'a permis dans un premier tant de finir tous les jours vers 13h pour aller à mes entrainements puis m'a
+                    énormement appris sur le plan personnel, c'est-à-dire que j'ai développé une responsabilité et une autonomie assez
+                    tôt m'aidant pour mes projets futurs. A la fin de mes études au collège j'avais déjà été deux fois champion de France, 
+                    g
+
+                </div>
                 <h1>L'informatique pour moi</h1>
                 <h1>Le patinage, ma passion</h1>
                 <h1>Ce que j'aime</h1>
