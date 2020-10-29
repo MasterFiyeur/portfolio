@@ -6,6 +6,7 @@ import Test from './Test/Test';
 import Menu from './Menu/Menu';
 import Projets from './Projets/Projets';
 import APropos from './APropos/APropos';
+import Contact from './Contact/Contact';
 
 class App extends Component {
   constructor(props) {
@@ -21,6 +22,7 @@ render(){
           <Switch>
             <Route path="/" exact><Accueil /></Route>
             <Route path="/a-propos"><APropos /></Route>
+            <Route path="/contact"><Contact /></Route>
             <Route path="/test"><Test /></Route>
             <Route path="/menu"><Menu/></Route>
             <Route path="/projets"><Projets /></Route>
