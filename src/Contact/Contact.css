@@ -65,6 +65,13 @@
     padding: 80px 30px;
 }
 
+.Contact_square{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .Contact_icons .Contact_link{
     position: relative;
     margin: 0 25px;
@@ -124,31 +131,31 @@
     transform: translate(20px, -20px);
 }
 
-.Contact_icons .Contact_link:nth-child(2) .layer span,
-.Contact_icons .Contact_link:nth-child(2) .link_text{
+.Contact_icons .Contact_square:nth-child(1) .Contact_link:nth-child(2) .layer span,
+.Contact_icons .Contact_square:nth-child(1) .Contact_link:nth-child(2) .link_text{
     color: #0073b1;
     border-color: #0073b1;
 }
 
-.Contact_icons .Contact_link:nth-child(4) .layer span,
-.Contact_icons .Contact_link:nth-child(4) .link_text{
+.Contact_icons .Contact_square:nth-child(2) .Contact_link:nth-child(2) .layer span,
+.Contact_icons .Contact_square:nth-child(2) .Contact_link:nth-child(2) .link_text{
     color: #ad0b00;
     border-color: #ad0b00;
 }
 
-.Contact_icons .Contact_link:nth-child(1):hover .layer span{
+.Contact_icons .Contact_square:nth-child(1) .Contact_link:nth-child(1):hover .layer span{
     box-shadow: -1px 1px 3px #fff;
 }
 
-.Contact_icons .Contact_link:nth-child(2):hover .layer span{
+.Contact_icons .Contact_square:nth-child(1) .Contact_link:nth-child(2):hover .layer span{
     box-shadow: -1px 1px 3px #0073b1;
 }
 
-.Contact_icons .Contact_link:nth-child(3):hover .layer span{
+.Contact_icons .Contact_square:nth-child(2) .Contact_link:nth-child(1):hover .layer span{
     box-shadow: -1px 1px 3px #fff;
 }
 
-.Contact_icons .Contact_link:nth-child(4):hover .layer span{
+.Contact_icons .Contact_square:nth-child(2) .Contact_link:nth-child(2):hover .layer span{
     box-shadow: -1px 1px 3px #ad0b00;
 }
 
@@ -166,10 +173,20 @@
     bottom: -35px;
 }
 
+.Contact_footer{
+    font-size:  16px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(200,200,200);
+}
+
 @media screen and (max-width: 767px){
     .Contact_icons{
         flex-direction: column;
         padding: 120px 30px 20px 30px;
+        justify-content: space-evenly;
     }
     .title_Contact{
         font-size: 50px;
@@ -183,6 +200,9 @@
         height: 16px;
         bottom: -6px;
         left: calc(50% + 70px);
+    }
+    .Contact_footer{
+        font-size: 10px;
     }
 }
 
