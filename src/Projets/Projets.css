@@ -89,12 +89,17 @@
     flex-direction: column;
 }
 
-.btn_voir_Projets{/* Mettre quelque chose de fix */
+.btn_voir_Projets{
     margin: 10px;
     width: 80%;
-    border: 2px solid rgb(165, 172, 231);
+    border: 2px solid rgba(230, 171, 198,0.9);
     border-radius: 10px;
-    background: radial-gradient(rgb(230, 171, 198), rgb(165, 172, 231) 80%);
+    background: rgba(230, 171, 198,0.7);
+}
+
+.btn_voir_Projets:active{
+    border: 2px solid rgba(230, 171, 198,0.9);
+    background: rgba(230, 171, 198,1);
 }
 
 .description_large_Projets{
