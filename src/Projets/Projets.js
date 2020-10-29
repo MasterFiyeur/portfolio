@@ -177,6 +177,7 @@ class Projets extends Component{
                             <h1><span className="project_title">Monopoly</span> - Juin 2018</h1>
                             <div className="description_text_Projets">Un monopoly dans lequel nous pouvons acheter les salles de classe de mon lycée.</div>
                             <div className="info_info-button_Projets"><div className="langages_lg_Projets">Langages : HTML / CSS / JS</div>
+                            <div className="voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/monopoly")}>Voir</div>
                             <div className="voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/monopoly")}>GitHub</div></div>
                         </div>
                         <div className="description_nolarge_Projets d-lg-none d-block">

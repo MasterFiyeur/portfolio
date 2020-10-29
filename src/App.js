@@ -25,7 +25,7 @@ render(){
             <Route path="/contact"><Contact /></Route>
             <Route path="/test"><Test /></Route>
             <Route path="/menu"><Menu/></Route>
-            <Route path="/projets"><Projets /></Route>
+            <Route exact path="/projets"><Projets /></Route>
           </Switch>
       </Router>
     </div>
