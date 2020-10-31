@@ -39,11 +39,27 @@ class APropos extends Component{
                     16ème arrondissement de Paris m'obligeant à faire le trajet Cergy-Paris en transport en commun tout les matins. Ce
                     collège m'a permis dans un premier tant de finir tous les jours vers 13h pour aller à mes entrainements puis m'a
                     énormement appris sur le plan personnel, c'est-à-dire que j'ai développé une responsabilité et une autonomie assez
-                    tôt m'aidant pour mes projets futurs. A la fin de mes études au collège j'avais déjà été deux fois champion de France, 
+                    tôt m'aidant pour mes projets futurs. A la fin de mes études au collège j'avais 15 ans et été deux fois champion de France ce 
+                    qui m'a permit lors de ma première année au lycée de faire des compétitions internationnales. C'est à cette période de 
+                    ma vie que j'ai beaucoup voyagé, je suis allé en Hongrie, Italie, Lettonie et Espagne pour faire des compétitions et 
+                    y représenter la France, j'en ai aussi profité pour visiter un peu la ville sur mon temps libre. Lors de ma deuxième année
+                    au lycée j'ai décidé d'arrêter le patinage artistique car le sport de haut niveau demande énormément de sacrifices et 
+                    j'avais déjà beaucoup profité par conséquent je me suis concentré sur les études et d'autres projets personnels tel que mes 
+                    premières lignes de code ! Ensuite j'ai obtenu mon baccalauréat scientifique option Informatique et Science du Numérique 
+                    avec une mention bien. Après le lycée, j'ai intégré la classe préparatoire intégrée de l'EISTI (actuellement CY Tech) car en 
+                    France, le parcours classique pour obtenir le titre d'ingénieur est de faire 2 ans après le bac de classe préparatoire puis 3 ans
+                    dans un école d'ingénieur. L'EISTI était mon premier choix du fait qu'il y avait plus d'informatique au programme que d'autres écoles
+                    et l'informatique me passionnait déjà à cette époque. Ces deux années furent difficiles mais j'ai aussi beaucoup apprécié car 
+                    en fin de chaque semestre nous avions un projet d'informatique à faire. Validant ma classe préparatoire en juin 2020, je suis 
+                    aujourd'hui en première année du cycle ingénieur à CY Tech (ex-EISTI) donc à ma troisième année après le bac.
                     
 
                 </div>
                 <h1>L'informatique pour moi</h1>
+                //Esprit de compétition pdt les projets avec flo et arthur
+                //Langages appris
+                //ma part dans les projets
+                //premieres lignes de code
                 <h1>Le patinage, ma passion</h1>
                 <h1>Ce que j'aime</h1>
                 <div className="APropos_text">
