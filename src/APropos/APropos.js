@@ -40,42 +40,41 @@ class APropos extends Component{
                     collège m'a permis dans un premier tant de finir tous les jours vers 13h pour aller à mes entrainements puis m'a
                     énormement appris sur le plan personnel, c'est-à-dire que j'ai développé une responsabilité et une autonomie assez
                     tôt m'aidant pour mes projets futurs. A la fin de mes études au collège j'avais 15 ans et été deux fois champion de France ce 
-                    qui m'a permit lors de ma première année au lycée de faire des compétitions internationnales. C'est à cette période de 
+                    qui m'a permis lors de ma première année au lycée de faire des compétitions internationnales. C'est à cette période de 
                     ma vie que j'ai beaucoup voyagé, je suis allé en Hongrie, Italie, Lettonie et Espagne pour faire des compétitions et 
                     y représenter la France, j'en ai aussi profité pour visiter un peu la ville sur mon temps libre. Lors de ma deuxième année
                     au lycée j'ai décidé d'arrêter le patinage artistique car le sport de haut niveau demande énormément de sacrifices et 
                     j'avais déjà beaucoup profité par conséquent je me suis concentré sur les études et d'autres projets personnels tel que mes 
-                    premières lignes de code ! Ensuite j'ai obtenu mon baccalauréat scientifique option Informatique et Science du Numérique 
+                    premières lignes de code ! Ensuite j'ai obtenu mon baccalauréat scientifique option Informatique et Sciences du Numérique 
                     avec une mention bien. Après le lycée, j'ai intégré la classe préparatoire intégrée de l'EISTI (actuellement CY Tech) car en 
                     France, le parcours classique pour obtenir le titre d'ingénieur est de faire 2 ans après le bac de classe préparatoire puis 3 ans
                     dans un école d'ingénieur. L'EISTI était mon premier choix du fait qu'il y avait plus d'informatique au programme que d'autres écoles
                     et l'informatique me passionnait déjà à cette époque. Ces deux années furent difficiles mais j'ai aussi beaucoup apprécié car 
                     en fin de chaque semestre nous avions un projet d'informatique à faire. Validant ma classe préparatoire en juin 2020, je suis 
                     aujourd'hui en première année du cycle ingénieur à CY Tech (ex-EISTI) donc à ma troisième année après le bac.
-                    
-
                 </div>
-                <h1>L'informatique pour moi</h1>
-                //Esprit de compétition pdt les projets avec flo et arthur
-                //Langages appris
-                //ma part dans les projets
-                //premieres lignes de code
-                <h1>Le patinage, ma passion</h1>
-                <h1>Ce que j'aime</h1>
+                <h1>L'informatique dans ma vie</h1>
                 <div className="APropos_text">
-            Mon parcours, mes études, le patin (+ video), tout ce qui est extra scolaire (patin, cours de math) et mes loisirs<br/>
-            Je veux changer le monde, je veux le rendre meilleur you know ?<br/>
-            Peut etre faire plusieurs rubriques genre mon parcours, ma personnalité, ce que j'aime, l'info il faut laisser une grosse place à l'info<br/>
-            Premier langage que j'ai touché est le VB.NET pour faire un programme enervant pour le prof (cd)<br/>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula tempus lorem, et convallis purus cursus non. Vestibulum lobortis condimentum nunc, sit amet commodo enim laoreet vel. Cras sit amet dignissim urna. Aliquam sodales, lacus quis aliquet gravida, purus turpis feugiat nunc, vitae tincidunt magna risus quis massa. Proin accumsan cursus tortor nec hendrerit. Mauris eget molestie massa. Suspendisse sagittis lacus et quam tempor egestas. Aliquam eget orci id erat posuere gravida. In scelerisque ante at mauris vehicula pretium. Maecenas ante justo, imperdiet iaculis urna ac, vulputate ultrices massa. Aliquam nulla sapien, dapibus at neque dictum, volutpat interdum purus. In vehicula facilisis erat. Nulla pulvinar eros et leo bibendum, ac semper metus convallis. Nam quis euismod elit, id mollis mauris. Cras ut iaculis ipsum.
-
-Quisque justo libero, ultricies vel magna congue, varius suscipit est. Suspendisse sed est ac libero hendrerit ullamcorper ut ut ipsum. Maecenas id tempor felis, at viverra justo. Sed laoreet fringilla posuere. Donec eget nisi tempus nulla pellentesque vulputate. Morbi vestibulum elit id imperdiet venenatis. Nulla facilisi. Duis mollis elit eget justo auctor auctor. Ut sed tellus ut risus tristique interdum eget sit amet odio.
-
-Donec efficitur dui quis ullamcorper interdum. Vestibulum non mauris fermentum, dapibus massa quis, ultricies mauris. Nunc venenatis sit amet odio scelerisque ornare. Integer consequat ipsum metus, sit amet malesuada urna luctus ut. Phasellus vestibulum ante tincidunt feugiat luctus. Ut pretium sapien vitae risus aliquam auctor. Pellentesque et posuere diam.
-
-Aenean sapien metus, interdum non ultrices et, cursus id ligula. Curabitur et iaculis sem. Quisque varius sapien finibus quam faucibus faucibus. Suspendisse hendrerit, nulla placerat faucibus mollis, erat neque fringilla neque, id iaculis dui erat ac lectus. Praesent a ultricies libero. Donec tincidunt mauris neque, id finibus quam molestie vitae. Donec non eros malesuada, auctor ex a, tincidunt leo.
-
-Nunc ornare rhoncus arcu. Vivamus non nibh id dui iaculis scelerisque. Maecenas at interdum nibh, blandit luctus est. Mauris vulputate purus feugiat finibus tempus. Aliquam ac hendrerit risus. Maecenas aliquet, massa in convallis pretium, tortor eros finibus urna, ut condimentum metus orci ut mi. Integer ut rutrum purus. Ut nibh turpis, accumsan ac est in, rutrum tincidunt massa. Morbi varius erat eu interdum pharetra. Proin vitae ullamcorper ligula. Donec et posuere elit, nec mattis nibh. Mauris tincidunt tristique purus vel maximus. Nunc ut blandit lectus. Nulla vel maximus purus, in vehicula purus.
+                    En 2016 vers la fin de ma première année au lycée j'ai écrit ma
+                    première ligne de code qui était en VB.NET pour le developpement de logiciel Windows. J'ai suivi quelques
+                    tutoriels sur internet pour comprendre comment fonctionne le codage. Très vite je me suis investi dans des petits 
+                    projets rendant l'informatique de plus en plus fascinant et intéressant pour moi, si bien que j'occupais la plupart 
+                    de mon temps libre à coder. Mon premier programme était un minuteur de 
+                    cuisine, on pouvait choisir ce que nous voulions faire cuire (oeufs, pâtes...) et un minuteur était lancé en fonction
+                    de ce que nous avions choisi. Toujours à la recherche des possibilités que l'informatique offre, j'ai développé plusieurs
+                    autres programmes personnels pour ensuite choisir l'option informatique du baccalauréat où j'ai été initié au
+                    développement web. Durant ma dernière année du lycée je me suis aussi intéressé à l'hardware, je voulais aller plus
+                    loin et comprendre le fonctionnement d'un ordinateur alors je me suis informé sur les fonctions des composants qui 
+                    constituent un ordinateur puis j'ai commandé individuellement chaque pièce pour ensuite assembler mon ordinateur 
+                    chez moi. Tout ce que j'avais découvert de l'informatique me passionnait alors étant curieux de ce que je ne savais pas encore
+                    j'ai décidé de faire de l'informatique mon orientation professionnelle. Lorsque nous avions des projets pendant mes
+                    années de classe préparatoire, je faisais dans un premier temps ce qui était demandé dans le sujet donné par les professeurs et 
+                    ensuite c'était comme une compétition entre deux autres camarades et moi, à celui qui aurait le meilleur programme avec le plus de 
+                    fonctionnalités. Les différents domaines de l'informatique me passionnent et je vois en ce domaine énormément d'opportunités 
+                    d'avenir pour rendre meilleur ce monde.
+                </div>
+                <div className="APropos_quote">
+                    On ne sait pas de quoi l'avenir sera fait mais on sait qui le fera.
                 </div>
             </div>
         </div>
