@@ -21,29 +21,29 @@ class Menu extends Component{
             <div className="body_Menu">
                 <ul className="ul_Menu">
                     <NavLink to="/">
-                        <li datatype="Accueil" className="li_Menu">
+                        <li datatype="Home" className="li_Menu">
                             <div className={"a_Menu "+(this.state.hideMenu===1?"opacity1":(this.state.hideMenu!==0&&"opacity0"))}
                             onMouseOver={() => this.setState({hideMenu:1})}
                             onMouseOut={() => this.setState({hideMenu:0})}>
-                                Accueil
+                                Home
                             </div>
                         </li>
                     </NavLink>
                     <NavLink to="/a-propos"> {/*NavLink  to="/a-propos">*/}
-                        <li datatype="A propos" className="li_Menu">
+                        <li datatype="About me" className="li_Menu">
                             <div className={"a_Menu "+(this.state.hideMenu===2?"opacity1":(this.state.hideMenu!==0&&"opacity0"))}
                             onMouseOver={() => this.setState({hideMenu:2})}
                             onMouseOut={() => this.setState({hideMenu:0})}>
-                                A propos
+                                About me
                             </div>
                         </li>
                     </NavLink>
                     <NavLink to="/projets">
-                        <li datatype="Projets" className="li_Menu">
+                        <li datatype="Projects" className="li_Menu">
                             <div className={"a_Menu "+(this.state.hideMenu===3?"opacity1":(this.state.hideMenu!==0&&"opacity0"))}
                             onMouseOver={() => this.setState({hideMenu:3})}
                             onMouseOut={() => this.setState({hideMenu:0})}>
-                                Projets
+                                Projects
                             </div>
                         </li>
                     </NavLink>

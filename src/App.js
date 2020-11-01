@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import Accueil from './Accueil/Accueil';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
-import Test from './Test/Test';
 import Menu from './Menu/Menu';
 import Projets from './Projets/Projets';
 import APropos from './APropos/APropos';
@@ -23,9 +22,8 @@ render(){
             <Route path="/" exact><Accueil /></Route>
             <Route path="/a-propos"><APropos /></Route>
             <Route path="/contact"><Contact /></Route>
-            <Route path="/test"><Test /></Route>
             <Route path="/menu"><Menu/></Route>
-            <Route exact path="/projets"><Projets /></Route>
+            <Route path="/projets"><Projets /></Route>
           </Switch>
       </Router>
     </div>

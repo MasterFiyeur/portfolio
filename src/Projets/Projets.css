@@ -16,7 +16,7 @@
 .title_Projets::before{
     content: "";
     position: absolute;
-    width: 194px;
+    width: 220px;
     height: 4px;
     bottom: 0;
     background-color: #fff;
@@ -31,7 +31,7 @@
     height: 16px;
     transform: rotate(45deg);
     bottom: -6px;
-    left: calc(50% + 87px);
+    left: calc(50% + 103px);
     background-color: rgb(230, 171, 198);
     animation: show_title_after_Projet 2s;
 }
@@ -181,14 +181,14 @@
         margin-bottom: 20px;
     }
     .title_Projets::before{
-        width: 140px;
-        left: calc(50% - 70px);
+        width: 158px;
+        left: calc(50% - 82px);
     }
     .title_Projets::after{
         width: 16px;
         height: 16px;
         bottom: -6px;
-        left: calc(50% + 60px);
+        left: calc(50% + 71px);
     }
 }
 

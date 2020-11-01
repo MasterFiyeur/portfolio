@@ -27,7 +27,7 @@
     height: 4px;
     bottom: 0;
     background-color: #fff;
-    left: calc(50% - 105);
+    left: calc(50% - 105px);
     animation: show_title_before_Contact 2s;
 }
 
