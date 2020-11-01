@@ -134,6 +134,15 @@ class APropos extends Component{
                     {/* On ne sait pas de quoi l'avenir sera fait mais on sait qui le fera. */}
                     We don't know what the future will be made of, but we know who will.
                 </div>
+                <h1>{/* Plus à propos de moi */}More about me...</h1>
+                <div className="twoParts">
+                    <div className="APropos_text">
+                    
+                    </div>
+                    <div>
+                        {/* vidéo embed*/}
+                    </div>
+                </div>
             </div>
         </div>
         );
