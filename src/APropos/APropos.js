@@ -137,10 +137,11 @@ class APropos extends Component{
                 <h1>{/* Plus à propos de moi */}More about me...</h1>
                 <div className="twoParts">
                     <div className="APropos_text">
-                    
+                    Nunc non efficitur arcu, vel pretium quam. Integer ornare enim et nisl varius, eu posuere massa sagittis. Donec ac blandit orci, vel sollicitudin ipsum. Curabitur nec arcu eleifend, euismod dolor ut, aliquet leo. Praesent commodo eleifend ipsum, at fringilla quam sollicitudin id. Morbi malesuada, metus at luctus aliquam, ligula leo luctus nisl, sit amet aliquam eros purus non elit. Integer sagittis varius mi ultrices dignissim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur eu sem nec arcu scelerisque tristique. Etiam non nunc vitae dolor scelerisque posuere eu et ante. Vestibulum maximus velit a magna pulvinar hendrerit. Aenean augue dolor, blandit at vestibulum at, efficitur ut lectus. Praesent quis rutrum lorem.
+                    Nunc non efficitur arcu, vel pretium quam. Integer ornare enim et nisl varius, eu posuere massa sagittis. Donec ac blandit orci, vel sollicitudin ipsum. Curabitur nec arcu eleifend, euismod dolor ut, aliquet leo. Praesent commodo eleifend ipsum, at fringilla quam sollicitudin id. Morbi malesuada, metus at luctus aliquam, ligula leo luctus nisl, sit amet aliquam eros purus non elit. Integer sagittis varius mi ultrices dignissim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur eu sem nec arcu scelerisque tristique. Etiam non nunc vitae dolor scelerisque posuere eu et ante. Vestibulum maximus velit a magna pulvinar hendrerit. Aenean augue dolor, blandit at vestibulum at, efficitur ut lectus. Praesent quis rutrum lorem.
                     </div>
-                    <div>
-                        {/* vidéo embed*/}
+                    <div className="APropos_video">
+                        <iframe src="https://www.youtube.com/embed/xCseddb6-Uo"></iframe>
                     </div>
                 </div>
             </div>
