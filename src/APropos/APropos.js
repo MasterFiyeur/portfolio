@@ -3,6 +3,7 @@ import './APropos.css';
 import vid_banner from './programme_france_courbevoie.mp4';
 import BackArrow from '../BackArrow/BackArrow';
 import CV_PDF from './JULIEN_Theo_CV.pdf';
+import { NavLink } from 'react-router-dom';
 
 class APropos extends Component{
     constructor(props) {
@@ -26,7 +27,7 @@ class APropos extends Component{
                 <h1 className="title">I'm </h1>
             </div>
             <svg width="10vh" height="10vh" viewBox="0 0 16 16" className="bi bi-chevron-compact-down APropos_down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
+                <path fillRule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
             </svg>
             <div className="content_APropos">
                 
@@ -125,7 +126,8 @@ class APropos extends Component{
                         at home. Everything I had discovered about computer science fascinated me so being curious about what I didn't know 
                         yet I decided to make computer science my professional orientation. When we had projects during my preparatory class 
                         years, I did first what was asked in the topic given by the teachers and then it was like a competition between two 
-                        other classmates and me, whoever had the best program with the most features. I am passionate about the different 
+                        other classmates and me, whoever had the best program with the most features. You can see them <NavLink to="/projets"><b>here</b></NavLink>.
+                        I am passionate about the different 
                         fields of computer science and I see a lot of opportunities for the future to make this world a better place.
                 </div>
                 <div className="APropos_quote">
