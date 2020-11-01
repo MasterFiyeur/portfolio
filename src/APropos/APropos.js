@@ -3,9 +3,6 @@ import './APropos.css';
 import vid_banner from './programme_france_courbevoie.mp4';
 import BackArrow from '../BackArrow/BackArrow';
 
-/**
- * Class qui s'occupe de la page de connexion
- */
 class APropos extends Component{
     constructor(props) {
         super(props);
@@ -19,7 +16,7 @@ class APropos extends Component{
 
     render(){
         return(
-        <div className="body_APropos"> {/* vidéo de moi en patin en fond ? */}
+        <div className="body_APropos">
             <BackArrow />
             <div className="banner_APropos">
                 <video autoPlay muted loop>
@@ -28,8 +25,9 @@ class APropos extends Component{
                 <h1 className="title">I'm </h1>
             </div>
             <div className="content_APropos">
-                <h1>Mon parcours</h1>
+                <h1>{/* Mon parcours */} My life's summary</h1>
                 <div className="APropos_text">
+                    {/* 
                     Tout a commencé à Orléans où j'ai grandi jusqu'à mes 10 ans. Mon école primaire était l'école Saint Marceau, à cette
                     époque j'avais déjà commencé le patinage artistique et j'arrivais un peu plus tard que tout le monde à l'école car
                     mes entraînements étaient le matin. Durant les compétitions de patinage ces années là, je me suis fait reperer par
@@ -52,9 +50,33 @@ class APropos extends Component{
                     et l'informatique me passionnait déjà à cette époque. Ces deux années furent difficiles mais j'ai aussi beaucoup apprécié car 
                     en fin de chaque semestre nous avions un projet d'informatique à faire. Validant ma classe préparatoire en juin 2020, je suis 
                     aujourd'hui en première année du cycle ingénieur à CY Tech (ex-EISTI) donc à ma troisième année après le bac.
+                     */}
+                        It all started in Orleans where I grew up until I was 10 years old. My elementary school was the Saint Marceau school, 
+                        at that time I had already started figure skating and I arrived a little later than everyone else at school because 
+                        my trainings were in the morning. During skating competitions in those years I was spotted by a very well known 
+                        coach in Cergy so I moved house to Cergy. I continued my studies during 2 years in a middle school not far from
+                        my home (La Justice middle school) however the skating trainings were in the afternoon which led me to go to a 
+                        middle school in Paris to do sport-study. My new middle school was Saint Honoré d'Elyau in the 16th arrondissement 
+                        of Paris, which meant that I had to take public transport from Cergy to Paris every morning. This middle school
+                        allowed me to finish every day around 1pm to go to my training sessions and then taught me a lot on a personal 
+                        level, I developed responsibility and autonomy early enough and it helped me in my future projects. At the end
+                        of my middle school studies I was 15 years old and was twice French champion which allowed me during my first 
+                        year in high school to do international competitions. During this period of my life I travelled a lot, I went 
+                        to Hungary, Italy, Latvia and Spain to do competitions and represent France, I also took the occasion to visit 
+                        a bit the city during my free time. In my second year in high school I decided to stop figure skating because 
+                        high level sport requires a lot of sacrifices and I had already enjoyed it a lot so I focused on studies and 
+                        other personal projects such as my first lines of code ! Then I obtained my scientific baccalaureate (high school diploma) option
+                        Computer Science and Numerical Sciences with mention bien (good). After high school, I joined the EISTI's 
+                        integrated preparatory class (currently CY Tech) because in France, the classic cursus to obtain the engineering 
+                        degree is to do 2 years of preparatory class after the baccalaureate and then 3 years in an engineering school. 
+                        EISTI was my first choice because there was more computer science in the program than other schools and I was 
+                        already passionate about computer science at that time. These two years were difficult, but I also enjoyed
+                        them a lot because at the end of each semester we had an IT project to do. Validating my preparatory class 
+                        in June 2020, I am now in the first year of the engineering cycle at CY Tech (ex-EISTI) so in my third year after the baccalaureate.
                 </div>
-                <h1>L'informatique dans ma vie</h1>
+                <h1>{/* L'informatique dans ma vie */}IT in my life</h1>
                 <div className="APropos_text">
+                    {/*
                     En 2016 vers la fin de ma première année au lycée j'ai écrit ma
                     première ligne de code qui était en VB.NET pour le developpement de logiciel Windows. J'ai suivi quelques
                     tutoriels sur internet pour comprendre comment fonctionne le codage. Très vite je me suis investi dans des petits 
@@ -72,9 +94,25 @@ class APropos extends Component{
                     ensuite c'était comme une compétition entre deux autres camarades et moi, à celui qui aurait le meilleur programme avec le plus de 
                     fonctionnalités. Les différents domaines de l'informatique me passionnent et je vois en ce domaine énormément d'opportunités 
                     d'avenir pour rendre meilleur ce monde.
+                    */}
+                        In 2016 at the end of my first year in high school I wrote my first line of code which was in VB.NET for Windows 
+                        software development. I followed some tutorials on the internet to understand how coding works. Very quickly I 
+                        became involved in small projects that made IT more and more fascinating and interesting for me, so I spent most 
+                        of my free time writing code. My first program was a kitchen timer, we could choose what we wanted to cook 
+                        (eggs, pasta...) and a timer was launched according to what we had chosen. Always in search of the possibilities 
+                        that computer science offers, I developed several other personal programs and then chose the computer science 
+                        option of the baccalaureate where I was introduced to web development. During my last year of high school I was 
+                        also interested in hardware, I wanted to go beyond and understand how a computer works so I learned about the 
+                        functions of the components that made a computer and then I bought each part individually and assembled my computer 
+                        at home. Everything I had discovered about computer science fascinated me so being curious about what I didn't know 
+                        yet I decided to make computer science my professional orientation. When we had projects during my preparatory class 
+                        years, I did first what was asked in the topic given by the teachers and then it was like a competition between two 
+                        other classmates and me, whoever had the best program with the most features. I am passionate about the different 
+                        fields of computer science and I see a lot of opportunities for the future to make this world a better place.
                 </div>
                 <div className="APropos_quote">
-                    On ne sait pas de quoi l'avenir sera fait mais on sait qui le fera.
+                    {/* On ne sait pas de quoi l'avenir sera fait mais on sait qui le fera. */}
+                    We don't know what the future will be made of, but we know who will.
                 </div>
             </div>
         </div>
