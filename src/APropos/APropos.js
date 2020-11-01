@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './APropos.css';
 import vid_banner from './programme_france_courbevoie.mp4';
 import BackArrow from '../BackArrow/BackArrow';
+import CV_PDF from './JULIEN_Theo_CV.pdf';
 
 class APropos extends Component{
     constructor(props) {
@@ -28,6 +29,10 @@ class APropos extends Component{
                 <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
             </svg>
             <div className="content_APropos">
+                
+                <div className="APropos_text">
+                    You can find my CV <b onClick={() => window.open(CV_PDF,'_blank').focus()}>there</b>.
+                </div>
                 <h1>{/* Mon parcours */} My life's summary</h1>
                 <div className="APropos_text">
                     {/* 
@@ -54,7 +59,7 @@ class APropos extends Component{
                     en fin de chaque semestre nous avions un projet d'informatique à faire. Validant ma classe préparatoire en juin 2020, je suis 
                     aujourd'hui en première année du cycle ingénieur à CY Tech (ex-EISTI) donc à ma troisième année après le bac.
                      */}
-                        It all started in Orleans where I grew up until I was 10 years old. My elementary school was the Saint Marceau school, 
+                        {/*It all started in Orleans where I grew up until I was 10 years old. My elementary school was the Saint Marceau school, 
                         at that time I had already started figure skating and I arrived a little later than everyone else at school because 
                         my trainings were in the morning. During skating competitions in those years I was spotted by a very well known 
                         coach in Cergy so I moved house to Cergy. I continued my studies during 2 years in a middle school not far from
@@ -66,15 +71,25 @@ class APropos extends Component{
                         of my middle school studies I was 15 years old and was twice French champion which allowed me during my first 
                         year in high school to do international competitions. During this period of my life I travelled a lot, I went 
                         to Hungary, Italy, Latvia and Spain to do competitions and represent France, I also took the occasion to visit 
-                        a bit the city during my free time. In my second year in high school I decided to stop figure skating because 
+                        a bit the city during my free time.*/}My name is Théo Julien, I'm 20 years old and I'm currently in my first year of
+                        engineering school in computer science. I'm from Orléans but I moved house to Cergy for ice skating.
+                        In my second year in high school I decided to stop figure skating because 
                         high level sport requires a lot of sacrifices and I had already enjoyed it a lot so I focused on studies and 
-                        other personal projects such as my first lines of code ! Then I obtained my scientific baccalaureate (high school diploma) option
-                        Computer Science and Numerical Sciences with mention bien (good). After high school, I joined the EISTI's 
-                        integrated preparatory class (currently CY Tech) because in France, the classic cursus to obtain the engineering 
-                        degree is to do 2 years of preparatory class after the baccalaureate and then 3 years in an engineering school. 
+                        other personal projects such as my first lines of code ! I obtained my scientific baccalaureate (high school diploma) option
+                        Computer Science and Numerical Sciences with mention bien (good), I got 20/20 in my option. After high school, I joined the EISTI's 
+                        integrated preparatory class (currently CY Tech) because the classic cursus to obtain the engineering 
+                        degree is to do 2 years of preparatory class after the baccalaureate then 3 years in an engineering school and I want to be an engineer. 
                         EISTI was my first choice because there was more computer science in the program than other schools and I was 
                         already passionate about computer science at that time. These two years were difficult, but I also enjoyed
-                        them a lot because at the end of each semester we had an IT project to do. Validating my preparatory class 
+                        them a lot because at the end of each semester we had an IT project to do. Here are my averages of the computer science teaching unit 
+                        during the preparatory class :
+                        <ul>
+                            <li>Semester 1 : 19.5/20 (class average : &nbsp;&nbsp;9.78/20)</li>
+                            <li>Semester 2 : 19.0/20 (class average : 10.23/20)</li>
+                            <li>Semester 3 : 17.5/20 (class average : 11,27/20)</li>
+                            <li>Semester 4 : 19.5/20 (class average : 15.25/20)</li>
+                        </ul>
+                        Validating my preparatory class 
                         in June 2020, I am now in the first year of the engineering cycle at CY Tech (ex-EISTI) so in my third year after the baccalaureate.
                 </div>
                 <h1>{/* L'informatique dans ma vie */}IT in my life</h1>

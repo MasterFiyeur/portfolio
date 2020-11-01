@@ -89,6 +89,7 @@
     padding: 0 30px 0 30px;
     position: absolute;
     top: 100%;
+    padding-top: 20px;
     background-color: rgb(14,12,23);
 }
 
@@ -100,6 +101,19 @@
 .APropos_text{
     text-align: justify;
     font-size: 20px;
+}
+
+.APropos_text b{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(230, 171, 198);
+}
+
+.APropos_text ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .APropos_quote{

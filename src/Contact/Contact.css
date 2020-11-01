@@ -76,6 +76,9 @@
     position: relative;
     margin: 0 25px;
     display: block;
+}
+
+.Contact_square:nth-child(1) .Contact_link{
     cursor: pointer;
 }
 
@@ -101,7 +104,8 @@
 }
 
 .Contact_icons .Contact_link .layer span.fab,
-.Contact_icons .Contact_link .layer span.far{
+.Contact_icons .Contact_link .layer span.far,
+.Contact_icons .Contact_link .layer span.fas{
     font-size: 30px;
     line-height: 55px;
     text-align: center;
@@ -139,8 +143,8 @@
 
 .Contact_icons .Contact_square:nth-child(2) .Contact_link:nth-child(2) .layer span,
 .Contact_icons .Contact_square:nth-child(2) .Contact_link:nth-child(2) .link_text{
-    color: #ad0b00;
-    border-color: #ad0b00;
+    color: #009202;
+    border-color: #009202;
 }
 
 .Contact_icons .Contact_square:nth-child(1) .Contact_link:nth-child(1):hover .layer span{
@@ -156,7 +160,7 @@
 }
 
 .Contact_icons .Contact_square:nth-child(2) .Contact_link:nth-child(2):hover .layer span{
-    box-shadow: -1px 1px 3px #ad0b00;
+    box-shadow: -1px 1px 3px #009202;
 }
 
 .Contact_icons .Contact_link .link_text{
@@ -217,7 +221,8 @@
         height: 100px;
     }
     .Contact_icons .Contact_link .layer span.fab,
-    .Contact_icons .Contact_link .layer span.far{
+    .Contact_icons .Contact_link .layer span.far,
+    .Contact_icons .Contact_link .layer span.fas{
         font-size: 60px;
         line-height: 100px;
         text-align: center;

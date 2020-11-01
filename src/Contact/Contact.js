@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Contact.css';
 import BackArrow from '../BackArrow/BackArrow';
-import CV_PDF from './JULIEN_Theo_CV.pdf';
 
 class Contact extends Component{
     constructor(props) {
@@ -42,7 +41,7 @@ class Contact extends Component{
                         </div>
                     </div>
                     <div className="Contact_square">
-                        <div className="Contact_link" onClick={() => this.openURL("mailto:julientheo@eisti.eu")}>
+                        <div className="Contact_link">
                             <div className="layer">
                                 <span></span>
                                 <span></span>
@@ -52,15 +51,15 @@ class Contact extends Component{
                             </div>
                             <div className="link_text">julientheo@eisti.eu</div>
                         </div>
-                        <div className="Contact_link" onClick={() => this.openURL(CV_PDF)}>
+                        <div className="Contact_link">
                             <div className="layer">
                                 <span></span>
                                 <span></span>
                                 <span></span>
                                 <span></span>
-                                <span className="far fa-file-pdf"></span>
+                                <span className="fas fa-phone"></span>
                             </div>
-                            <div className="link_text">CV</div>
+                            <div className="link_text">(+33)6.86.25.88.50</div>
                         </div>
                     </div>
                 </div>
