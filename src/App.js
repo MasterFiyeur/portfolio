@@ -6,13 +6,23 @@ import Menu from './Menu/Menu';
 import Projets from './Projets/Projets';
 import APropos from './APropos/APropos';
 import Contact from './Contact/Contact';
+import ReactGa from 'react-ga';
 
 class App extends Component {
   constructor(props) {
     super(props);
     //Ajouter un etat pour definir la classe de transition
     //Envoyer à l'enfant la fonction pour changer cet état
-}
+  }
+
+  componentDidMount(){
+    ReactGa.initialize('G-NE4FYH8S0M');
+    ReactGa.pageview(window.location.pathname + window.location.search);
+  }
+
+  componentDidUpdate(){
+    ReactGa.pageview(window.location.pathname + window.location.search);
+  }
 
 render(){
   return (
