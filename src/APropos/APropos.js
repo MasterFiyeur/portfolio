@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './APropos.css';
 import vid_banner from './programme_france_courbevoie.mp4';
+import photoBack from './photoMoi1.jpg';
 import BackArrow from '../BackArrow/BackArrow';
 import CV_PDF from './JULIEN_Theo_CV.pdf';
 import { NavLink } from 'react-router-dom';
@@ -44,9 +45,9 @@ class APropos extends Component{
         <div className="body_APropos">
             <BackArrow />
             <div className="banner_APropos">
-                <video autoPlay muted loop>
+                {/*<video autoPlay muted loop>
                     <source src={vid_banner} type="video/mp4" id="video_banner"></source>
-                </video>
+                </video>*/}
                 <h1 className="title">{"I'm "+this.state.IAM}</h1>
             </div>
             <svg width="10vh" height="10vh" viewBox="0 0 16 16" className="bi bi-chevron-compact-down APropos_down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

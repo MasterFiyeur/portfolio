@@ -41,6 +41,8 @@
     position: fixed;
     z-index: -1;
     display: flex;
+    background: url("photoMoi2.jpg") no-repeat center 0 fixed;
+    background-size: cover;
     justify-content: center;
     align-items: center;
 }
@@ -148,7 +150,9 @@
     .APropos_text{
         font-size: 15px;
     }
-
+    .banner_APropos{
+        background-position-x: 100%;
+    }
 }
 
 @media screen and (max-width: 599px){
