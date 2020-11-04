@@ -12,7 +12,7 @@ class App extends Component {
     super(props);
     //Ajouter un etat pour definir la classe de transition
     //Envoyer à l'enfant la fonction pour changer cet état
-}
+  }
 
 render(){
   return (
