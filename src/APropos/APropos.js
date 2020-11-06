@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './APropos.css';
-import photoBack from './photoMoi1.jpg';
 import BackArrow from '../BackArrow/BackArrow';
 import CV_PDF from './JULIEN_Theo_CV_FR.pdf';
 import { NavLink } from 'react-router-dom';
