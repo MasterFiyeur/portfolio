@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './APropos.css';
 import BackArrow from '../BackArrow/BackArrow';
-import CV_PDF from './JULIEN_Theo_CV_FR.pdf';
+import CV_PDF_FR from './JULIEN_Theo_CV_FR.pdf';
+import CV_PDF_US from './JULIEN_Theo_CV_US.pdf';
 import { NavLink } from 'react-router-dom';
 
 class APropos extends Component{
@@ -51,7 +52,8 @@ class APropos extends Component{
             <div className="content_APropos">
                 
                 <div className="APropos_text">
-                    You can find my CV <b onClick={() => window.open(CV_PDF,'_blank').focus()}>there</b>.
+                    You can find my CV <b onClick={() => window.open(CV_PDF_US,'_blank').focus()}>there</b> (french version&nbsp;
+                    <b onClick={() => window.open(CV_PDF_FR,'_blank').focus()}>here</b>).
                 </div>
                 <h1>{/* Mon parcours */} My life's summary</h1>
                 <div className="APropos_text">
