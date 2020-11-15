@@ -15,7 +15,7 @@ class Menu extends Component{
             hideMenu:0
         };
     }
-
+    /* Mettre le titre en haut */
     render(){
         return(
             <div className="body_Menu">

@@ -38,7 +38,7 @@ class APropos extends Component{
       componentWillUnmount() {
         clearInterval(this.interval);
       }
-
+    /* Trop gros blocs */
     render(){
         return(
         <div className="body_APropos">
