@@ -30,12 +30,12 @@ class APropos extends Component{
                     this.setState({IAM:"Théo"});
                     console.log("Default case switch this.interval");
             }
-        }, 2500);
+        }, 5000);
       }
       componentWillUnmount() {
         clearInterval(this.interval);
       }
-
+    /* Trop gros blocs */
     render(){
         return(
         <div className="body_APropos">
