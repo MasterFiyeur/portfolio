@@ -18,9 +18,6 @@ class APropos extends Component{
         this.interval = setInterval(() => {
             switch (this.state.IAM) {
                 case "Théo":
-                    this.setState({IAM:"MasterFiyeur"});
-                    break;
-                case "MasterFiyeur":
                     this.setState({IAM:"a computer engineering student"});
                     break;
                 case "a computer engineering student":
