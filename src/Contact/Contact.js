@@ -64,7 +64,7 @@ class Contact extends Component{
                     </div>
                 </div>
                 <div className="Contact_footer">
-                &copy; 2020 Théo Julien - All right reserved
+                &copy; 2020-2021 Théo Julien - All right reserved
                 </div>
             </div>
         );
