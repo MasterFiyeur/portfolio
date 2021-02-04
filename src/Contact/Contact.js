@@ -59,7 +59,7 @@ class Contact extends Component{
                                 <span></span>
                                 <span className="fas fa-phone"></span>
                             </div>
-                            <div className="link_text">(+33)6.86.25.88.50</div>
+                            <div className="link_text">(+33)7.86.25.88.50</div>
                         </div>
                     </div>
                 </div>
