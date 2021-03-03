@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "506b04c40746b22b76c9803338a4bac5",
+    "revision": "2f0c37f4b7aa5fe6b8cea0fb8f9a5e2b",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "f09b4e2ddff8c726b505",
+    "revision": "ce7e5bea65bca49995ea",
     "url": "/portfolio/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "28c646f14236fbba1bf8",
+    "revision": "1919dd3783d4f0994582",
     "url": "/portfolio/static/css/main.9641f32a.chunk.css"
   },
   {
-    "revision": "f09b4e2ddff8c726b505",
-    "url": "/portfolio/static/js/2.3ab6ba12.chunk.js"
+    "revision": "ce7e5bea65bca49995ea",
+    "url": "/portfolio/static/js/2.a2816561.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/portfolio/static/js/2.3ab6ba12.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.a2816561.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "28c646f14236fbba1bf8",
-    "url": "/portfolio/static/js/main.17b20e89.chunk.js"
+    "revision": "1919dd3783d4f0994582",
+    "url": "/portfolio/static/js/main.4f1dbcb0.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3add2f39ed477a9fee97b4f4c8252c7b",
     "url": "/portfolio/static/media/bataille_navale-min.3add2f39.jpg"
+  },
+  {
+    "revision": "83fb5a9668ed9d1591da25cfcc9b6354",
+    "url": "/portfolio/static/media/kheops-liste-bde-min.83fb5a96.jpg"
   },
   {
     "revision": "e1b5b764b720e2cf71ff36a570a64b08",

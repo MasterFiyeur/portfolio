@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9641f32a.chunk.css",
-    "main.js": "/portfolio/static/js/main.17b20e89.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.17b20e89.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.4f1dbcb0.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4f1dbcb0.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.af3c1da9.chunk.css": "/portfolio/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.3ab6ba12.chunk.js": "/portfolio/static/js/2.3ab6ba12.chunk.js",
-    "static/js/2.3ab6ba12.chunk.js.map": "/portfolio/static/js/2.3ab6ba12.chunk.js.map",
+    "static/js/2.a2816561.chunk.js": "/portfolio/static/js/2.a2816561.chunk.js",
+    "static/js/2.a2816561.chunk.js.map": "/portfolio/static/js/2.a2816561.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.f38545f8be7c41b27452d0de22060d21.js": "/portfolio/precache-manifest.f38545f8be7c41b27452d0de22060d21.js",
+    "precache-manifest.d1381a1484194769bb3e2cb40efa04ff.js": "/portfolio/precache-manifest.d1381a1484194769bb3e2cb40efa04ff.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/portfolio/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.9641f32a.chunk.css.map": "/portfolio/static/css/main.9641f32a.chunk.css.map",
-    "static/js/2.3ab6ba12.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3ab6ba12.chunk.js.LICENSE.txt",
+    "static/js/2.a2816561.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a2816561.chunk.js.LICENSE.txt",
     "static/media/Accueil.css": "/portfolio/static/media/IMG_3382.f4c05b31.jpg",
     "static/media/JULIEN_Theo_CV_FR.pdf": "/portfolio/static/media/JULIEN_Theo_CV_FR.a5f2bd45.pdf",
     "static/media/JULIEN_Theo_CV_US.pdf": "/portfolio/static/media/JULIEN_Theo_CV_US.5df8f6fe.pdf",
     "static/media/ascenseur-min.jpg": "/portfolio/static/media/ascenseur-min.5def14c2.jpg",
     "static/media/bataille_navale-min.jpg": "/portfolio/static/media/bataille_navale-min.3add2f39.jpg",
+    "static/media/kheops-liste-bde-min.jpg": "/portfolio/static/media/kheops-liste-bde-min.83fb5a96.jpg",
     "static/media/machine_mots-min.jpg": "/portfolio/static/media/machine_mots-min.e1b5b764.jpg",
     "static/media/monopoly-min.jpg": "/portfolio/static/media/monopoly-min.2235d3a6.jpg",
     "static/media/myeisti-min.jpg": "/portfolio/static/media/myeisti-min.49f2a3da.jpg",
@@ -29,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.3ab6ba12.chunk.js",
+    "static/js/2.a2816561.chunk.js",
     "static/css/main.9641f32a.chunk.css",
-    "static/js/main.17b20e89.chunk.js"
+    "static/js/main.4f1dbcb0.chunk.js"
   ]
 }
