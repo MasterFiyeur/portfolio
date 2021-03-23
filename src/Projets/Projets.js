@@ -8,6 +8,7 @@ import img_machine_mot from './machine_mots-min.jpg';
 import img_myeisti from './myeisti-min.jpg';
 import img_site_rencontre from './site_rencontre-min.jpg';
 import img_site_liste_bde from './kheops-liste-bde-min.jpg';
+import img_bot_telegram_liste3 from './telegram_bot_liste3-min.jpg';
 import BackArrow from '../BackArrow/BackArrow';
 
 /**
@@ -33,13 +34,13 @@ class Projets extends Component{
                 <BackArrow />
                 <h1 className="title_Projets">Projects</h1>
                 <div className="all_Projet_Projets">
-                <div className="liste_Projet_Projets">
+                    <div className="liste_Projet_Projets">
                         <img className="img_large" src={img_site_liste_bde} alt="Site personnel"/>
                         <div className="description_large_Projets d-none d-lg-flex">
                             <h2><span className="project_title">Liste BDE website</span> - March 2021</h2>
                             <div className="description_text_Projets">A website in order to present our projects and members.</div>
                             <div className="info_info-button_Projets">
-                                <div className="langages_lg_Projets">Languages : HTML / CSS / JS (Node JS)</div>
+                                <div className="langages_lg_Projets">Languages : HTML / CSS / JS (Express)</div>
                                 <div className="voir_Projets" onClick={() => this.openURL("https://liste-kheops.fr")}>Website</div>
                             </div>
                         </div>
@@ -48,12 +49,37 @@ class Projets extends Component{
                                 <div className="col-12 col-sm-4">
                                     <h1>Liste BDE website</h1>
                                     <h4>March 2021</h4>
-                                    <div>Languages : HTML / CSS / JS (Node JS)</div>
+                                    <div>Languages : HTML / CSS / JS (Express)</div>
                                 <hr className="d-md-none d-sm-none"></hr>
                                 </div>
                                 <div className="col-12 col-sm-8 description_centered_Projets">
                                     <div>A website in order to present our projects and members.</div>
                                     <div className="btn_voir_Projets" onClick={() => this.openURL("https://liste-kheops.fr")}>Website</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="liste_Projet_Projets">
+                        <img className="img_large" src={img_bot_telegram_liste3} alt="Bot Telegram"/>
+                        <div className="description_large_Projets d-none d-lg-flex">
+                            <h2><span className="project_title">Telegram bot</span> - March 2021</h2>
+                            <div className="description_text_Projets">A french telegram bot that has a list of memes and can initiate a game if you ask me. Get help with /gr_help.</div>
+                            <div className="info_info-button_Projets">
+                                <div className="langages_lg_Projets">Languages : JS (Node + Telebot)</div>
+                                <div className="voir_Projets" onClick={() => this.openURL("https://web.telegram.org/#/im?p=@Liste3_bot")}>@Liste3_bot</div>
+                            </div>
+                        </div>
+                        <div className="description_nolarge_Projets d-lg-none d-block">
+                            <div className="row">
+                                <div className="col-12 col-sm-4">
+                                    <h1>Telegram bot</h1>
+                                    <h4>March 2021</h4>
+                                    <div>Languages : JS (Node + Telebot)</div>
+                                <hr className="d-md-none d-sm-none"></hr>
+                                </div>
+                                <div className="col-12 col-sm-8 description_centered_Projets">
+                                    <div>A french telegram bot that has a list of memes and can initiate a game if you ask me. Get help with /gr_help.</div>
+                                    <div className="btn_voir_Projets" onClick={() => this.openURL("https://web.telegram.org/#/im?p=@Liste3_bot")}>@Liste3_bot</div>
                                 </div>
                             </div>
                         </div>
