@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f0c37f4b7aa5fe6b8cea0fb8f9a5e2b",
+    "revision": "f8b945c3cd9bcec4960d968cccdc9741",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "ce7e5bea65bca49995ea",
+    "revision": "b9696aea48101add81f5",
     "url": "/portfolio/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "1919dd3783d4f0994582",
+    "revision": "e27bb92e72d3c27d2e57",
     "url": "/portfolio/static/css/main.9641f32a.chunk.css"
   },
   {
-    "revision": "ce7e5bea65bca49995ea",
-    "url": "/portfolio/static/js/2.a2816561.chunk.js"
+    "revision": "b9696aea48101add81f5",
+    "url": "/portfolio/static/js/2.0af1b8dd.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/portfolio/static/js/2.a2816561.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.0af1b8dd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1919dd3783d4f0994582",
-    "url": "/portfolio/static/js/main.4f1dbcb0.chunk.js"
+    "revision": "e27bb92e72d3c27d2e57",
+    "url": "/portfolio/static/js/main.56b03f14.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -74,5 +74,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "075037e5df3e06b70b8df42f23879cba",
     "url": "/portfolio/static/media/site_rencontre-min.075037e5.jpg"
+  },
+  {
+    "revision": "0d9fc1e4537fb4ab1ee3acc44b150ad9",
+    "url": "/portfolio/static/media/telegram_bot_liste3-min.0d9fc1e4.jpg"
   }
 ]);

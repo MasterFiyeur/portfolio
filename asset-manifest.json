@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9641f32a.chunk.css",
-    "main.js": "/portfolio/static/js/main.4f1dbcb0.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4f1dbcb0.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.56b03f14.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.56b03f14.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.af3c1da9.chunk.css": "/portfolio/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.a2816561.chunk.js": "/portfolio/static/js/2.a2816561.chunk.js",
-    "static/js/2.a2816561.chunk.js.map": "/portfolio/static/js/2.a2816561.chunk.js.map",
+    "static/js/2.0af1b8dd.chunk.js": "/portfolio/static/js/2.0af1b8dd.chunk.js",
+    "static/js/2.0af1b8dd.chunk.js.map": "/portfolio/static/js/2.0af1b8dd.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.d1381a1484194769bb3e2cb40efa04ff.js": "/portfolio/precache-manifest.d1381a1484194769bb3e2cb40efa04ff.js",
+    "precache-manifest.99b7058447aa4ae10640e2ea618d1339.js": "/portfolio/precache-manifest.99b7058447aa4ae10640e2ea618d1339.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/portfolio/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.9641f32a.chunk.css.map": "/portfolio/static/css/main.9641f32a.chunk.css.map",
-    "static/js/2.a2816561.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a2816561.chunk.js.LICENSE.txt",
+    "static/js/2.0af1b8dd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0af1b8dd.chunk.js.LICENSE.txt",
     "static/media/Accueil.css": "/portfolio/static/media/IMG_3382.f4c05b31.jpg",
     "static/media/JULIEN_Theo_CV_FR.pdf": "/portfolio/static/media/JULIEN_Theo_CV_FR.a5f2bd45.pdf",
     "static/media/JULIEN_Theo_CV_US.pdf": "/portfolio/static/media/JULIEN_Theo_CV_US.5df8f6fe.pdf",
@@ -25,13 +25,14 @@
     "static/media/myeisti-min.jpg": "/portfolio/static/media/myeisti-min.49f2a3da.jpg",
     "static/media/personal_site-min.jpg": "/portfolio/static/media/personal_site-min.01494cdc.jpg",
     "static/media/APropos.css": "/portfolio/static/media/photoMoi.28b74bfe.jpg",
-    "static/media/site_rencontre-min.jpg": "/portfolio/static/media/site_rencontre-min.075037e5.jpg"
+    "static/media/site_rencontre-min.jpg": "/portfolio/static/media/site_rencontre-min.075037e5.jpg",
+    "static/media/telegram_bot_liste3-min.jpg": "/portfolio/static/media/telegram_bot_liste3-min.0d9fc1e4.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.a2816561.chunk.js",
+    "static/js/2.0af1b8dd.chunk.js",
     "static/css/main.9641f32a.chunk.css",
-    "static/js/main.4f1dbcb0.chunk.js"
+    "static/js/main.56b03f14.chunk.js"
   ]
 }
