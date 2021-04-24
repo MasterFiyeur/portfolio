@@ -9,6 +9,7 @@ import img_myeisti from './myeisti-min.jpg';
 import img_site_rencontre from './site_rencontre-min.jpg';
 import img_site_liste_bde from './kheops-liste-bde-min.jpg';
 import img_bot_telegram_liste3 from './telegram_bot_liste3-min.jpg';
+import img_patisport from './patisport-min.jpg';
 import BackArrow from '../BackArrow/BackArrow';
 
 /**
@@ -34,6 +35,31 @@ class Projets extends Component{
                 <BackArrow />
                 <h1 className="title_Projets">Projects</h1>
                 <div className="all_Projet_Projets">
+                <div className="liste_Projet_Projets">
+                        <img className="img_large" src={img_patisport} alt="Bot Telegram"/>
+                        <div className="description_large_Projets d-none d-lg-flex">
+                            <h2><span className="project_title">Patisport</span> - April 2021</h2>
+                            <div className="description_text_Projets">A fictitious e-commerce store where you can buy figure skating accessories.</div>
+                            <div className="info_info-button_Projets">
+                                <div className="langages_lg_Projets">Languages :  HTML / CSS / JS / PHP / SQL</div>
+                                <div className="voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/patisport")}>GitHub</div>
+                            </div>
+                        </div>
+                        <div className="description_nolarge_Projets d-lg-none d-block">
+                            <div className="row">
+                                <div className="col-12 col-sm-4">
+                                    <h1>Patisport</h1>
+                                    <h4>April 2021</h4>
+                                    <div>Languages :  HTML / CSS / JS / PHP / SQL</div>
+                                <hr className="d-md-none d-sm-none"></hr>
+                                </div>
+                                <div className="col-12 col-sm-8 description_centered_Projets">
+                                    <div>A fictitious e-commerce store where you can buy figure skating accessories.</div>
+                                    <div className="btn_voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/patisport")}>GitHub</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="liste_Projet_Projets">
                         <img className="img_large" src={img_site_liste_bde} alt="Site personnel"/>
                         <div className="description_large_Projets d-none d-lg-flex">
