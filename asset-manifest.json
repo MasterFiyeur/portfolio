@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.596adc85.chunk.css",
-    "main.js": "/portfolio/static/js/main.56b03f14.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.56b03f14.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.bae9a1f1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bae9a1f1.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.af3c1da9.chunk.css": "/portfolio/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.0af1b8dd.chunk.js": "/portfolio/static/js/2.0af1b8dd.chunk.js",
-    "static/js/2.0af1b8dd.chunk.js.map": "/portfolio/static/js/2.0af1b8dd.chunk.js.map",
+    "static/js/2.fe90f672.chunk.js": "/portfolio/static/js/2.fe90f672.chunk.js",
+    "static/js/2.fe90f672.chunk.js.map": "/portfolio/static/js/2.fe90f672.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.bd6efb22add222f8f33d4cd60e800293.js": "/portfolio/precache-manifest.bd6efb22add222f8f33d4cd60e800293.js",
+    "precache-manifest.11984a223efe5bb4080bff44ab48164a.js": "/portfolio/precache-manifest.11984a223efe5bb4080bff44ab48164a.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/portfolio/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.596adc85.chunk.css.map": "/portfolio/static/css/main.596adc85.chunk.css.map",
-    "static/js/2.0af1b8dd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0af1b8dd.chunk.js.LICENSE.txt",
+    "static/js/2.fe90f672.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fe90f672.chunk.js.LICENSE.txt",
     "static/media/Accueil.css": "/portfolio/static/media/IMG_3382.f4c05b31.jpg",
     "static/media/JULIEN_Theo_CV_FR.pdf": "/portfolio/static/media/JULIEN_Theo_CV_FR.a5f2bd45.pdf",
     "static/media/JULIEN_Theo_CV_US.pdf": "/portfolio/static/media/JULIEN_Theo_CV_US.5df8f6fe.pdf",
@@ -23,6 +23,7 @@
     "static/media/machine_mots-min.jpg": "/portfolio/static/media/machine_mots-min.e1b5b764.jpg",
     "static/media/monopoly-min.jpg": "/portfolio/static/media/monopoly-min.2235d3a6.jpg",
     "static/media/myeisti-min.jpg": "/portfolio/static/media/myeisti-min.49f2a3da.jpg",
+    "static/media/patisport-min.jpg": "/portfolio/static/media/patisport-min.2bd4b5cb.jpg",
     "static/media/personal_site-min.jpg": "/portfolio/static/media/personal_site-min.01494cdc.jpg",
     "static/media/APropos.css": "/portfolio/static/media/photoMoi.28b74bfe.jpg",
     "static/media/site_rencontre-min.jpg": "/portfolio/static/media/site_rencontre-min.075037e5.jpg",
@@ -31,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.0af1b8dd.chunk.js",
+    "static/js/2.fe90f672.chunk.js",
     "static/css/main.596adc85.chunk.css",
-    "static/js/main.56b03f14.chunk.js"
+    "static/js/main.bae9a1f1.chunk.js"
   ]
 }

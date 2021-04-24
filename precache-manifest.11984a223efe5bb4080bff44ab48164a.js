@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "beeaabc1f4b886f80dea6d83c3c32170",
+    "revision": "5496237db5639274d212059c8324c517",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "b9696aea48101add81f5",
+    "revision": "66fd4324a1a88ec6189f",
     "url": "/portfolio/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "24e0772adce9b2ebc1bb",
+    "revision": "bd4352bcfdd48508c8c6",
     "url": "/portfolio/static/css/main.596adc85.chunk.css"
   },
   {
-    "revision": "b9696aea48101add81f5",
-    "url": "/portfolio/static/js/2.0af1b8dd.chunk.js"
+    "revision": "66fd4324a1a88ec6189f",
+    "url": "/portfolio/static/js/2.fe90f672.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/portfolio/static/js/2.0af1b8dd.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.fe90f672.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "24e0772adce9b2ebc1bb",
-    "url": "/portfolio/static/js/main.56b03f14.chunk.js"
+    "revision": "bd4352bcfdd48508c8c6",
+    "url": "/portfolio/static/js/main.bae9a1f1.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "49f2a3da0cd01ac5464e203afd1b4670",
     "url": "/portfolio/static/media/myeisti-min.49f2a3da.jpg"
+  },
+  {
+    "revision": "2bd4b5cba5dcdaa25b2343de1110d9e4",
+    "url": "/portfolio/static/media/patisport-min.2bd4b5cb.jpg"
   },
   {
     "revision": "01494cdc4dd041b985cb9165d87f9d82",
