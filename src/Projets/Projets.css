@@ -71,7 +71,7 @@
 }
 
 .description_nolarge_Projets{
-    background-color: rgb(165, 172, 231);
+    background-color: rgba(165, 172, 231,0.2);
     color: #fff;
 }
 
@@ -170,7 +170,7 @@
 @media screen and (max-width: 991px){
     .liste_Projet_Projets{
         background-color: transparent;
-        border: 5px solid rgb(230, 171, 198);
+        border: 2px solid rgb(230, 171, 198);
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
