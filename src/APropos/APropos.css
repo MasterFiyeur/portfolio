@@ -1,4 +1,4 @@
-.body_APropos{
+/*.body_APropos{
     padding: 0;
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
@@ -67,7 +67,7 @@
     color: #fff;
     text-shadow: -1px -1px 5px black;
 }
-
+*/
 /* Replaced by a js function
 .banner_APropos .title::after{
     content: "Théo";
@@ -86,7 +86,7 @@
     }
 }
 */
-
+/*
 .content_APropos{
     padding: 30px 30px 30px 30px;
     position: absolute;
@@ -161,4 +161,161 @@
         font-size: 2em!important;
     }
 
+}*/
+
+::-webkit-scrollbar {
+    height: 6px;
+    background-color:transparent;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(20, 13, 56);
+    border-radius: 15px;
+}
+
+
+.body_APropos{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding: 0 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100vh;
+    background: url("photoMoi.jpg") no-repeat center 56% fixed;
+    background-size: cover;
+}
+
+.body_APropos .bannerText{
+    position: relative;
+    padding: 10px;
+    max-width: 700px;
+    background-color: rgba(34,34,34,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 5px #000;
+}
+
+.body_APropos .bannerText div{
+    display: none;
+    transition: 0.5s ease-in-out;
+}
+
+.body_APropos .bannerText div.active{
+    display: initial;
+}
+
+.body_APropos .bannerText div h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.body_APropos .bannerText div p{
+    color : #fff;
+    font-size: 18px;
+    max-height: 50vh;
+    overflow-y: scroll;
+}
+
+.body_APropos .bannerText div p .iframe_patinage{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.body_APropos .bannerText div p iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+ul{
+    margin: 0!important;
+}
+
+.sci{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.sci li{
+    list-style: none;
+}
+
+.sci li div{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.sci li div:hover{
+    background-color: #0ff;
+}
+
+.sci li div img{
+    width: 100%;
+    display: inline;
+}
+
+.controls{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+}
+
+.controls li{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.controls li:hover{
+    background-color: #0ff;
+}
+
+.controls li img{
+    width: 50%;
+}
+
+@media screen and (max-width: 991px){
+    .body_APropos{
+        padding: 0 10px;
+    }
+        
+    .body_APropos .bannerText div p{
+        color : #fff;
+        font-size: 15px;
+        max-height: 50vh;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width: 322px){
+    .sci li div{
+        width: 50px;
+        height: 50px;
+    }
+    .body_APropos .bannerText div h2{
+        font-size: 25px;
+    }
 }
