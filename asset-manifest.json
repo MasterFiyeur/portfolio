@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ece59cc0.chunk.css",
-    "main.js": "/portfolio/static/js/main.bae9a1f1.chunk.js",
+    "main.css": "/portfolio/static/css/main.1dc6bc08.chunk.css",
+    "main.js": "/portfolio/static/js/main.ad2f822b.chunk.js",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "static/css/2.143f9196.chunk.css": "/portfolio/static/css/2.143f9196.chunk.css",
-    "static/js/2.fe90f672.chunk.js": "/portfolio/static/js/2.fe90f672.chunk.js",
+    "static/js/2.1e833ba0.chunk.js": "/portfolio/static/js/2.1e833ba0.chunk.js",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.3c70f531866a97d70fe86faa583090f9.js": "/portfolio/precache-manifest.3c70f531866a97d70fe86faa583090f9.js",
+    "precache-manifest.6f79020715561a8fc52cae3e48799e7f.js": "/portfolio/precache-manifest.6f79020715561a8fc52cae3e48799e7f.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/js/2.fe90f672.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fe90f672.chunk.js.LICENSE.txt",
+    "static/js/2.1e833ba0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1e833ba0.chunk.js.LICENSE.txt",
     "static/media/Accueil.css": "/portfolio/static/media/IMG_3382.f4c05b31.jpg",
-    "static/media/JULIEN_Theo_CV_FR.pdf": "/portfolio/static/media/JULIEN_Theo_CV_FR.a5f2bd45.pdf",
+    "static/media/JULIEN_Theo_CV_FR.pdf": "/portfolio/static/media/JULIEN_Theo_CV_FR.6b34fb97.pdf",
     "static/media/JULIEN_Theo_CV_US.pdf": "/portfolio/static/media/JULIEN_Theo_CV_US.5df8f6fe.pdf",
     "static/media/ascenseur-min.jpg": "/portfolio/static/media/ascenseur-min.5def14c2.jpg",
     "static/media/bataille_navale-min.jpg": "/portfolio/static/media/bataille_navale-min.3add2f39.jpg",
+    "static/media/chevron-left.svg": "/portfolio/static/media/chevron-left.bdde5e6d.svg",
+    "static/media/chevron-right.svg": "/portfolio/static/media/chevron-right.cb01ceea.svg",
     "static/media/kheops-liste-bde-min.jpg": "/portfolio/static/media/kheops-liste-bde-min.83fb5a96.jpg",
     "static/media/machine_mots-min.jpg": "/portfolio/static/media/machine_mots-min.e1b5b764.jpg",
     "static/media/monopoly-min.jpg": "/portfolio/static/media/monopoly-min.2235d3a6.jpg",
@@ -27,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.143f9196.chunk.css",
-    "static/js/2.fe90f672.chunk.js",
-    "static/css/main.ece59cc0.chunk.css",
-    "static/js/main.bae9a1f1.chunk.js"
+    "static/js/2.1e833ba0.chunk.js",
+    "static/css/main.1dc6bc08.chunk.css",
+    "static/js/main.ad2f822b.chunk.js"
   ]
 }

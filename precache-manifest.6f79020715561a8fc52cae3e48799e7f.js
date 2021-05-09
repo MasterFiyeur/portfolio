@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c18cd76ded4dd1c39a4bae516fbab654",
+    "revision": "29ea604b354c866ca05a7e1db3eb64c4",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "d42b50e006d460a93e82",
+    "revision": "b0a3141fd0fd26d577fe",
     "url": "/portfolio/static/css/2.143f9196.chunk.css"
   },
   {
-    "revision": "01765c26564273e88a78",
-    "url": "/portfolio/static/css/main.ece59cc0.chunk.css"
+    "revision": "54396c8140c0aa8ee912",
+    "url": "/portfolio/static/css/main.1dc6bc08.chunk.css"
   },
   {
-    "revision": "d42b50e006d460a93e82",
-    "url": "/portfolio/static/js/2.fe90f672.chunk.js"
+    "revision": "b0a3141fd0fd26d577fe",
+    "url": "/portfolio/static/js/2.1e833ba0.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/portfolio/static/js/2.fe90f672.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.1e833ba0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "01765c26564273e88a78",
-    "url": "/portfolio/static/js/main.bae9a1f1.chunk.js"
+    "revision": "54396c8140c0aa8ee912",
+    "url": "/portfolio/static/js/main.ad2f822b.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/IMG_3382.f4c05b31.jpg"
   },
   {
-    "revision": "a5f2bd450e00de12be7de525472e34b2",
-    "url": "/portfolio/static/media/JULIEN_Theo_CV_FR.a5f2bd45.pdf"
+    "revision": "6b34fb972487c3bf2e6a8d82ce126eb5",
+    "url": "/portfolio/static/media/JULIEN_Theo_CV_FR.6b34fb97.pdf"
   },
   {
     "revision": "5df8f6fef5f49d6321e24271802bdfe6",
@@ -46,6 +46,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3add2f39ed477a9fee97b4f4c8252c7b",
     "url": "/portfolio/static/media/bataille_navale-min.3add2f39.jpg"
+  },
+  {
+    "revision": "bdde5e6db9814164753d330b24685242",
+    "url": "/portfolio/static/media/chevron-left.bdde5e6d.svg"
+  },
+  {
+    "revision": "cb01ceeaabacecf1c3f27d6112d36cd7",
+    "url": "/portfolio/static/media/chevron-right.cb01ceea.svg"
   },
   {
     "revision": "83fb5a9668ed9d1591da25cfcc9b6354",
