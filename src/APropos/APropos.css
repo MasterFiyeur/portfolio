@@ -192,7 +192,7 @@
     position: relative;
     padding: 10px;
     max-width: 700px;
-    background-color: rgba(34,34,34,0.7);
+    background-color: rgba(235,235,235,0.5);
     border-radius: 15px;
     box-shadow: 0 0 5px #000;
 }
@@ -207,13 +207,13 @@
 }
 
 .body_APropos .bannerText div h2{
-    color: #fff;
+    color: #000;
     font-size: 30px;
     font-weight: 700;
 }
 
 .body_APropos .bannerText div p{
-    color : #fff;
+    color : #000;
     font-size: 18px;
     max-height: 50vh;
     overflow-y: scroll;
@@ -300,10 +300,10 @@ ul{
 @media screen and (max-width: 991px){
     .body_APropos{
         padding: 0 10px;
+        background-position-x: 80%;
     }
         
     .body_APropos .bannerText div p{
-        color : #fff;
         font-size: 15px;
         max-height: 50vh;
         overflow-y: scroll;
