@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c5b7f770.chunk.css",
-    "main.js": "/portfolio/static/js/main.ad2f822b.chunk.js",
+    "main.css": "/portfolio/static/css/main.a369312d.chunk.css",
+    "main.js": "/portfolio/static/js/main.17ab6da4.chunk.js",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "static/css/2.143f9196.chunk.css": "/portfolio/static/css/2.143f9196.chunk.css",
-    "static/js/2.1e833ba0.chunk.js": "/portfolio/static/js/2.1e833ba0.chunk.js",
+    "static/js/2.0f875294.chunk.js": "/portfolio/static/js/2.0f875294.chunk.js",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.afc977224f6e116154c1182ccb913409.js": "/portfolio/precache-manifest.afc977224f6e116154c1182ccb913409.js",
+    "precache-manifest.38eedb0b856fe6af1efafe17306dd25b.js": "/portfolio/precache-manifest.38eedb0b856fe6af1efafe17306dd25b.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/js/2.1e833ba0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1e833ba0.chunk.js.LICENSE.txt",
+    "static/js/2.0f875294.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0f875294.chunk.js.LICENSE.txt",
     "static/media/Accueil.css": "/portfolio/static/media/IMG_3382.f4c05b31.jpg",
     "static/media/JULIEN_Theo_CV_FR.pdf": "/portfolio/static/media/JULIEN_Theo_CV_FR.6b34fb97.pdf",
     "static/media/JULIEN_Theo_CV_US.pdf": "/portfolio/static/media/JULIEN_Theo_CV_US.5df8f6fe.pdf",
@@ -20,6 +20,7 @@
     "static/media/machine_mots-min.jpg": "/portfolio/static/media/machine_mots-min.e1b5b764.jpg",
     "static/media/monopoly-min.jpg": "/portfolio/static/media/monopoly-min.2235d3a6.jpg",
     "static/media/myeisti-min.jpg": "/portfolio/static/media/myeisti-min.49f2a3da.jpg",
+    "static/media/onelife-min.jpg": "/portfolio/static/media/onelife-min.3009b096.jpg",
     "static/media/patisport-min.jpg": "/portfolio/static/media/patisport-min.2bd4b5cb.jpg",
     "static/media/personal_site-min.jpg": "/portfolio/static/media/personal_site-min.01494cdc.jpg",
     "static/media/APropos.css": "/portfolio/static/media/photoMoi.28b74bfe.jpg",
@@ -29,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.143f9196.chunk.css",
-    "static/js/2.1e833ba0.chunk.js",
-    "static/css/main.c5b7f770.chunk.css",
-    "static/js/main.ad2f822b.chunk.js"
+    "static/js/2.0f875294.chunk.js",
+    "static/css/main.a369312d.chunk.css",
+    "static/js/main.17ab6da4.chunk.js"
   ]
 }
