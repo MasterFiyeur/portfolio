@@ -10,6 +10,7 @@ import img_site_rencontre from './site_rencontre-min.jpg';
 import img_site_liste_bde from './kheops-liste-bde-min.jpg';
 import img_bot_telegram_liste3 from './telegram_bot_liste3-min.jpg';
 import img_patisport from './patisport-min.jpg';
+import img_onelife from './onelife-min.jpg';
 import BackArrow from '../BackArrow/BackArrow';
 
 /**
@@ -35,7 +36,32 @@ class Projets extends Component{
                 <BackArrow />
                 <h1 className="title_Projets">Projects</h1>
                 <div className="all_Projet_Projets">
-                <div className="liste_Projet_Projets">
+                    <div className="liste_Projet_Projets">
+                        <img className="img_large" src={img_onelife} alt="Onelife App"/>
+                        <div className="description_large_Projets d-none d-lg-flex">
+                            <h2><span className="project_title">One Life</span> - June 2021</h2>
+                            <div className="description_text_Projets">An application (using Firebase) with challenges to complete with my friends.</div>
+                            <div className="info_info-button_Projets">
+                                <div className="langages_lg_Projets">Languages : React Native</div>
+                                <div className="voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/onelife")}>GitHub</div>
+                            </div>
+                        </div>
+                        <div className="description_nolarge_Projets d-lg-none d-block">
+                            <div className="row">
+                                <div className="col-12 col-sm-4">
+                                    <h1>One Life</h1>
+                                    <h4>June 2021</h4>
+                                    <div>Languages : React Native</div>
+                                <hr className="d-md-none d-sm-none"></hr>
+                                </div>
+                                <div className="col-12 col-sm-8 description_centered_Projets">
+                                    <div>An application (using Firebase) with challenges to complete with my friends.</div>
+                                    <div className="btn_voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/onelife")}>GitHub</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="liste_Projet_Projets">
                         <img className="img_large" src={img_patisport} alt="Bot Telegram"/>
                         <div className="description_large_Projets d-none d-lg-flex">
                             <h2><span className="project_title">Patisport</span> - April 2021</h2>
