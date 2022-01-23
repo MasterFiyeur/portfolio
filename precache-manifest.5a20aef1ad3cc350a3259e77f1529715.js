@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d209a9f4171d5367a7ea6e91a3c68b6",
+    "revision": "b113cf01cf30ed667bd942e904447aed",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.143f9196.chunk.css"
   },
   {
-    "revision": "36d89293863c32cf8ffe",
-    "url": "/portfolio/static/css/main.a369312d.chunk.css"
+    "revision": "0cf024ce359bff0d56e3",
+    "url": "/portfolio/static/css/main.1c215660.chunk.css"
   },
   {
     "revision": "27a929349db9db91f29e",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.b3665a0e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "36d89293863c32cf8ffe",
-    "url": "/portfolio/static/js/main.e87aa702.chunk.js"
+    "revision": "0cf024ce359bff0d56e3",
+    "url": "/portfolio/static/js/main.cc0dfd0f.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -98,5 +98,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0d9fc1e4537fb4ab1ee3acc44b150ad9",
     "url": "/portfolio/static/media/telegram_bot_liste3-min.0d9fc1e4.jpg"
+  },
+  {
+    "revision": "f7960ed89a507f28f0bcfc3e5c783532",
+    "url": "/portfolio/static/media/tryhackme_logo_full.f7960ed8.svg"
   }
 ]);
