@@ -12,6 +12,7 @@ import img_bot_telegram_liste3 from './telegram_bot_liste3-min.jpg';
 import img_patisport from './patisport-min.jpg';
 import img_onelife from './onelife-min.jpg';
 import img_2021internship from './internship2021-min.jpg';
+import img_fourinarow from './four-in-a-row-min.jpg';
 import BackArrow from '../BackArrow/BackArrow';
 
 /**
@@ -37,6 +38,31 @@ class Projets extends Component{
                 <BackArrow />
                 <h1 className="title_Projets">Projects</h1>
                 <div className="all_Projet_Projets">
+                <div className="liste_Projet_Projets">
+                        <img className="img_large" src={img_fourinarow} alt="Dictionaries of French verbal associations"/>
+                        <div className="description_large_Projets d-none d-lg-flex">
+                            <h2><span className="project_title">Tic-tac-toe and Connect4</span> - January 2022</h2>
+                            <div className="description_text_Projets">Website where you can play tic-tac-toe and connect4 against an AI using Monte Carlo algorithm. It also contains an authentication system.</div>
+                            <div className="info_info-button_Projets">
+                                <div className="langages_lg_Projets">Language : Java (JEE, Spring Boot, Hibernate, Maven) / SQL / Web (HTML/CSS/JS)</div>
+                                <div className="voir_Projets" onClick={() => this.openURL("https://github.com/ZRunner/Four-in-a-Row")}>GitHub</div>
+                            </div>
+                        </div>
+                        <div className="description_nolarge_Projets d-lg-none d-block">
+                            <div className="row">
+                                <div className="col-12 col-sm-4">
+                                    <h1>Tic-tac-toe and Connect4</h1>
+                                    <h4>January 2022</h4>
+                                    <div>Language : Java (JEE, Spring Boot, Hibernate, Maven) / SQL / Web (HTML/CSS/JS)</div>
+                                <hr className="d-md-none d-sm-none"></hr>
+                                </div>
+                                <div className="col-12 col-sm-8 description_centered_Projets">
+                                    <div>Website where you can play tic-tac-toe and connect4 against an AI using Monte Carlo algorithm. It also contains an authentication system.</div>
+                                    <div className="btn_voir_Projets" onClick={() => this.openURL("https://github.com/ZRunner/Four-in-a-Row")}>GitHub</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="liste_Projet_Projets">
                         <img className="img_large" src={img_2021internship} alt="Dictionaries of French verbal associations"/>
                         <div className="description_large_Projets d-none d-lg-flex">
@@ -118,7 +144,7 @@ class Projets extends Component{
                             <h2><span className="project_title">Liste BDE website</span> - March 2021</h2>
                             <div className="description_text_Projets">A website in order to present our projects and members.</div>
                             <div className="info_info-button_Projets">
-                                <div className="langages_lg_Projets">Languages : HTML / CSS / JS (Express)</div>
+                                <div className="langages_lg_Projets">Languages : HTML / CSS / JS (Express) / NoSQL (Firebase)</div>
                                 <div className="voir_Projets" onClick={() => this.openURL("https://liste-kheops.fr")}>Website</div>
                             </div>
                         </div>
@@ -127,7 +153,7 @@ class Projets extends Component{
                                 <div className="col-12 col-sm-4">
                                     <h1>Liste BDE website</h1>
                                     <h4>March 2021</h4>
-                                    <div>Languages : HTML / CSS / JS (Express)</div>
+                                    <div>Languages : HTML / CSS / JS (Express) / NoSQL (Firebase)</div>
                                 <hr className="d-md-none d-sm-none"></hr>
                                 </div>
                                 <div className="col-12 col-sm-8 description_centered_Projets">
