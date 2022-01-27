@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1c215660.chunk.css",
-    "main.js": "/portfolio/static/js/main.cc0dfd0f.chunk.js",
+    "main.js": "/portfolio/static/js/main.476c5498.chunk.js",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "static/css/2.143f9196.chunk.css": "/portfolio/static/css/2.143f9196.chunk.css",
-    "static/js/2.b3665a0e.chunk.js": "/portfolio/static/js/2.b3665a0e.chunk.js",
+    "static/js/2.0c366635.chunk.js": "/portfolio/static/js/2.0c366635.chunk.js",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.5a20aef1ad3cc350a3259e77f1529715.js": "/portfolio/precache-manifest.5a20aef1ad3cc350a3259e77f1529715.js",
+    "precache-manifest.cf2a99af43d2a5e242ed80f3c0027e6a.js": "/portfolio/precache-manifest.cf2a99af43d2a5e242ed80f3c0027e6a.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/js/2.b3665a0e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b3665a0e.chunk.js.LICENSE.txt",
+    "static/js/2.0c366635.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0c366635.chunk.js.LICENSE.txt",
     "static/media/Accueil.css": "/portfolio/static/media/IMG_3382.f4c05b31.jpg",
     "static/media/Theo_JULIEN_CV_US.pdf": "/portfolio/static/media/Theo_JULIEN_CV_US.eb3f9cf9.pdf",
     "static/media/Theo_Julien_CV_FR.pdf": "/portfolio/static/media/Theo_Julien_CV_FR.78eeeaa4.pdf",
@@ -16,6 +16,7 @@
     "static/media/bataille_navale-min.jpg": "/portfolio/static/media/bataille_navale-min.3add2f39.jpg",
     "static/media/chevron-left.svg": "/portfolio/static/media/chevron-left.bdde5e6d.svg",
     "static/media/chevron-right.svg": "/portfolio/static/media/chevron-right.cb01ceea.svg",
+    "static/media/four-in-a-row-min.jpg": "/portfolio/static/media/four-in-a-row-min.e0cccc4a.jpg",
     "static/media/internship2021-min.jpg": "/portfolio/static/media/internship2021-min.41147368.jpg",
     "static/media/kheops-liste-bde-min.jpg": "/portfolio/static/media/kheops-liste-bde-min.83fb5a96.jpg",
     "static/media/machine_mots-min.jpg": "/portfolio/static/media/machine_mots-min.e1b5b764.jpg",
@@ -32,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.143f9196.chunk.css",
-    "static/js/2.b3665a0e.chunk.js",
+    "static/js/2.0c366635.chunk.js",
     "static/css/main.1c215660.chunk.css",
-    "static/js/main.cc0dfd0f.chunk.js"
+    "static/js/main.476c5498.chunk.js"
   ]
 }
