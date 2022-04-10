@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './APropos.css';
 import BackArrow from '../BackArrow/BackArrow';
-import CV_PDF_FR from './Theo_Julien_CV_FR.pdf';
+import CV_PDF_FR from './Theo_JULIEN_CV_FR.pdf';
 import CV_PDF_US from './Theo_JULIEN_CV_US.pdf';
 import cv_icon_fr from './CV_fr_icon.png';
 import cv_icon_us from './CV_us_icon.png';
