@@ -10,7 +10,7 @@ import img_site_rencontre from './site_rencontre-min.jpg';
 import img_site_liste_bde from './kheops-liste-bde-min.jpg';
 import img_bot_telegram_liste3 from './telegram_bot_liste3-min.jpg';
 import img_patisport from './patisport-min.jpg';
-import img_onelife from './onelife-min.jpg';
+import img_onelife from './onelife-min-min.jpg';
 import img_2021internship from './internship2021-min.jpg';
 import img_fourinarow from './four-in-a-row-min.jpg';
 import img_local_chat from './local_chat-min.jpg';
