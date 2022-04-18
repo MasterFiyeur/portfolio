@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6b31b4c351feeb9d405ebf4ba2b2677",
+    "revision": "53d635a3308d500e99551c2d2861d4d1",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.143f9196.chunk.css"
   },
   {
-    "revision": "6ae6f667f99e8ebc5431",
+    "revision": "3a4b7a39874fa9505f8e",
     "url": "/portfolio/static/css/main.1c215660.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.207fa5e7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6ae6f667f99e8ebc5431",
-    "url": "/portfolio/static/js/main.bcbdd0a3.chunk.js"
+    "revision": "3a4b7a39874fa9505f8e",
+    "url": "/portfolio/static/js/main.9dad7dec.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -84,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/myeisti-min.49f2a3da.jpg"
   },
   {
-    "revision": "3009b0967ca5a7d48cb7df2a7e22139f",
-    "url": "/portfolio/static/media/onelife-min.3009b096.jpg"
+    "revision": "a4d437c26a6f4524afb159954be40c65",
+    "url": "/portfolio/static/media/onelife-min-min.a4d437c2.jpg"
   },
   {
     "revision": "2bd4b5cba5dcdaa25b2343de1110d9e4",
