@@ -44,7 +44,7 @@ class Projets extends Component{
                         <img className="img_large" src={img_minecube} alt="Bash local chat"/>
                         <div className="description_large_Projets d-none d-lg-flex">
                             <h2><span className="project_title">MineCube</span> - April 2022</h2>
-                            <div className="description_text_Projets">Project of the famous game Minecraft, recreating a few of its features and functionality in c++.</div>
+                            <div className="description_text_Projets">Project of the famous game Minecraft, recreating a few of its features and functionality in C++.</div>
                             <div className="info_info-button_Projets">
                                 <div className="langages_lg_Projets">Language : C++</div>
                                 <div className="voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/MineCube")}>GitHub</div>
@@ -59,7 +59,7 @@ class Projets extends Component{
                                 <hr className="d-md-none d-sm-none"></hr>
                                 </div>
                                 <div className="col-12 col-sm-8 description_centered_Projets">
-                                    <div>Project of the famous game Minecraft, recreating a few of its features and functionality in c++.</div>
+                                    <div>Project of the famous game Minecraft, recreating a few of its features and functionality in C++.</div>
                                     <div className="btn_voir_Projets" onClick={() => this.openURL("https://github.com/MasterFiyeur/MineCube")}>GitHub</div>
                                 </div>
                             </div>
