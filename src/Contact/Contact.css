@@ -79,7 +79,7 @@
 }
 
 .Contact_square:nth-child(1) .Contact_link,
-.Contact_square:nth-child(2) .Contact_link:nth-child(2){
+.Contact_square:nth-child(2) .Contact_link{
     cursor: pointer;
 }
 
@@ -153,6 +153,11 @@
 .Contact_icons .Contact_square:nth-child(2) .Contact_link:nth-child(2) .link_text{
     color: #C11111;
     border-color: #C11111;
+}
+
+.Contact_icons .Contact_square:nth-child(2) .Contact_link:nth-child(1) .link_text{
+    font-size: 0.9em;
+    white-space: nowrap;
 }
 
 .Contact_icons .Contact_square:nth-child(1) .Contact_link:nth-child(1):hover .layer span{
