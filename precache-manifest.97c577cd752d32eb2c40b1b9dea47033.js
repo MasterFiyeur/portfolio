@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b32306c98c56f27ed3efd948ba7ba01",
+    "revision": "ee7e75c9e362d3ab9222c86b01a77e97",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "c2d975255ae4ea27565a",
+    "revision": "7c9fe8e3fd5c14a391e0",
     "url": "/portfolio/static/css/2.143f9196.chunk.css"
   },
   {
-    "revision": "0314c692d9291828455c",
+    "revision": "8cbdafcd7bf766ea67a4",
     "url": "/portfolio/static/css/main.7333b912.chunk.css"
   },
   {
-    "revision": "c2d975255ae4ea27565a",
-    "url": "/portfolio/static/js/2.59b5104f.chunk.js"
+    "revision": "7c9fe8e3fd5c14a391e0",
+    "url": "/portfolio/static/js/2.0a464729.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/portfolio/static/js/2.59b5104f.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.0a464729.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0314c692d9291828455c",
-    "url": "/portfolio/static/js/main.9e1a7fa1.chunk.js"
+    "revision": "8cbdafcd7bf766ea67a4",
+    "url": "/portfolio/static/js/main.776dca95.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cb01ceeaabacecf1c3f27d6112d36cd7",
     "url": "/portfolio/static/media/chevron-right.cb01ceea.svg"
+  },
+  {
+    "revision": "95ad54279344d5aaa4054638fcb0b1fa",
+    "url": "/portfolio/static/media/diploma-generator-min.95ad5427.jpg"
   },
   {
     "revision": "e0cccc4ae036056b0f18c8cf71e46ffc",
