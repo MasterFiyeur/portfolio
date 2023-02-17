@@ -42,14 +42,14 @@ class Contact extends Component{
 					</div>
 					<div className="Contact_square">
 						<div className="Contact_link">
-							<div className="layer" title='Click to copy' onClick={() => {navigator.clipboard.writeText("julientheo@cy-tech.fr")}}>
+							<div className="layer" title='Click to copy' onClick={() => this.openURL("https://www.root-me.org/Masterfiyeur")}>
 								<span></span>
 								<span></span>
 								<span></span>
 								<span></span>
-								<span className="far fa-envelope"></span>
+								<span className="image_rootme"></span>
 							</div>
-							<div className="link_text">julientheo@cy-tech.fr</div>
+							<div className="link_text">Root Me</div>
 						</div>
 						<div className="Contact_link" onClick={() => this.openURL("https://tryhackme.com/p/MasterFiyeur")}>
 							<div className="layer">
@@ -64,7 +64,7 @@ class Contact extends Component{
 					</div>
 				</div>
 				<div className="Contact_footer">
-				&copy; 2020-2022 Théo Julien - All right reserved
+				&copy; 2020-2023 Théo Julien - All right reserved
 				</div>
 			</div>
 		);

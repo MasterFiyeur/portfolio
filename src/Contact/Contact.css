@@ -119,6 +119,11 @@
     background-size: cover;
 }
 
+.Contact_icons .Contact_link .layer span.image_rootme{
+    background-image: url("./rootme_logo.svg");
+    background-size: cover;
+}
+
 .Contact_icons .Contact_link:hover .layer span:nth-child(1){
     opacity: 0.2;
 }
@@ -156,7 +161,6 @@
 }
 
 .Contact_icons .Contact_square:nth-child(2) .Contact_link:nth-child(1) .link_text{
-    font-size: 0.9em;
     white-space: nowrap;
 }
 

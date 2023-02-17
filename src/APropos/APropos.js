@@ -38,7 +38,7 @@ class APropos extends Component{
                 <div className="bannerText">
                     <div className={this.state.paragraphe==0?"active":""}>
                         <h2>My life's summary</h2>
-                        <p>My name is Théo Julien, I'm 21 years old and I'm currently in my third year of
+                        <p>My name is Théo Julien, I'm 22 years old and I'm currently in my third year of
                         engineering school in computer science. I'm from Orléans but I moved house to Cergy for ice skating.
                         In my second year in high school I decided to stop figure skating because 
                         high level sport requires a lot of sacrifices and I had already enjoyed it a lot so I focused on studies and 
