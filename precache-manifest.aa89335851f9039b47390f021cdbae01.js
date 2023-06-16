@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "66e82f14bb3380bb8e0ecf59d50c8fb3",
+    "revision": "debd989b93a1b2b37edfd43ac8e1b05d",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.143f9196.chunk.css"
   },
   {
-    "revision": "32d24539a3992c0f175f",
+    "revision": "dfcaffeb9d2a659dbc92",
     "url": "/portfolio/static/css/main.820c7995.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.0a464729.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "32d24539a3992c0f175f",
-    "url": "/portfolio/static/js/main.e2416bc2.chunk.js"
+    "revision": "dfcaffeb9d2a659dbc92",
+    "url": "/portfolio/static/js/main.77126f34.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/MineCube-min.6061294e.jpg"
   },
   {
-    "revision": "8464e0da376d85ff6618abbba1ec437b",
-    "url": "/portfolio/static/media/Theo_JULIEN_CV.8464e0da.pdf"
+    "revision": "3d178dda8ebd4008e242d4965f99800a",
+    "url": "/portfolio/static/media/Theo_JULIEN_CV_FR.3d178dda.pdf"
   },
   {
     "revision": "eb3f9cf9c526018aea5af6bc02972594",
